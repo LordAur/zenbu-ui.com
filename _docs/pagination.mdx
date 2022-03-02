@@ -1,0 +1,96 @@
+---
+title: Pagination
+description: An element to indicate a series of related content exists across multiple pages.
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage",
+  child: [{
+    name: "Simple",
+    link: "#simple"
+  }, {
+    name: "Show Total Data",
+    link: "#show-total-data"
+  }, {
+    name: "Show Range Data",
+    link: "#show-range-data"
+  }]
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "Pagination",
+    link: "#pagination"
+  }]
+}]
+---
+
+<PreviewPagination />
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/pagination" />
+
+## Usage
+
+```jsx
+import { Pagination } from '@zenbu-ui/pagination'
+
+const App = () => {
+  return(
+    <Pagination total={100} />
+  )
+}
+```
+
+### Simple
+
+<PreviewPaginationSimple />
+
+```jsx
+<Pagination total={100} border={false}
+color="transparent"
+colorHover="slate" colorHoverContrast="300"
+darkColorHover="slate" darkColorHoverContrast="500"
+textColor="slate" textColorContrast="700"
+darkTextColor="slate" darkTextColorContrast="200"/>
+```
+
+### Show Total Data
+<PreviewPaginationTotal />
+
+```jsx
+<Pagination total={100}
+showTotal={(total) => (
+  <Text
+  color="slate" colorContrast="700"
+  darkColor="slate" darkColorContrast="200"
+  fontSize="sm">
+    Total {total} data
+  </Text>
+)} />
+```
+
+### Show Range Data
+<PreviewPaginationRange />
+
+```jsx
+<Pagination total={100}
+showTotal={(total, range) => (
+  <Text
+  color="slate" colorContrast="700"
+  darkColor="slate" darkColorContrast="200"
+  fontSize="sm">
+    {range[0]}-{range[1]} of {total} items
+  </Text>
+)} />
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### Pagination
+<PaginationProps />

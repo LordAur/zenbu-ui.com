@@ -1,0 +1,148 @@
+---
+title: Menu
+description: Displaying an item to navigation actions.
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage",
+  child: [{
+    name: "Menu Icon",
+    link: "#menu-icon"
+  }, {
+    name: "Menu Dropdown",
+    link: "#menu-dropdown"
+  }, {
+    name: "Menu Dropdown Mode",
+    link: "#menu-dropdown-mode"
+  }]
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "Menu",
+    link: "#menu"
+  }, {
+    name: "Menu.Item",
+    link: "#menu.item"
+  }, {
+    name: "MenuDropdown",
+    link: "#menudropdown"
+  }]
+}]
+---
+
+<PreviewMenu />
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/menu" />
+
+## Usage
+
+```jsx
+import { Menu } from '@zenbu-ui/menu'
+
+const App = () => {
+  return(
+    <Menu
+    logo={(
+      <a href="https://...">
+        <img src="https://..." alt="..." width={50} />
+      </a>
+    )}>
+      <Menu.Item href="#">Services</Menu.Item>
+      <Menu.Item href="#">Portofolio</Menu.Item>
+      <Menu.Item href="#">About</Menu.Item>
+      <Menu.Item href="#">Blog</Menu.Item>
+      <Menu.Item href="#">Career</Menu.Item>
+      <Menu.Item href="#">Contact</Menu.Item>
+    </Menu>
+  )
+}
+
+export default App
+```
+
+### Menu Icon
+<PreviewMenuIcon />
+
+```jsx
+<Menu
+logo={(
+  <a href="https://...">
+    <img src="https://..." alt="..." width={50} />
+  </a>
+)}>
+  <Menu.Item href="#" icon="home">Home</Menu.Item>
+  <Menu.Item href="#" icon="light-bulb">Features</Menu.Item>
+  <Menu.Item href="#" icon="credit-card">Pricing</Menu.Item>
+  <Menu.Item href="#" icon="question-mark-circle">About</Menu.Item>
+</Menu>
+```
+
+### Menu Dropdown
+<PreviewMenuDropdown />
+
+```jsx
+import { Menu, MenuDropdown } from '@zenbu-ui/menu'
+
+const App = () => {
+  return(
+    <Menu
+    itemActiveFontWeight="bold">
+      <Menu.Item href="#">Home</Menu.Item>
+      <Menu.Dropdown title="Features">
+        <MenuDropdown.Item href="#" target="_blank">Feature 1</MenuDropdown.Item>
+        <MenuDropdown.Item href="#">Feature 2</MenuDropdown.Item>
+        <MenuDropdown.Item href="#">Feature 3</MenuDropdown.Item>
+        <MenuDropdown.Item href="#">Feature 4</MenuDropdown.Item>
+      </Menu.Dropdown>
+      <Menu.Item href="#">Pricing</Menu.Item>
+      <Menu.Item href="#">About</Menu.Item>
+    </Menu>
+  )
+}
+```
+
+### Menu Dropdown Mode
+By default, the dropdown menu will open when the menu is triggered with a click. But, you can change the trigger by hovering over the menu item.
+
+Use the **dropdownMode** property and fill with hover like the example below:
+
+<PreviewMenuDropdownMode />
+
+```jsx
+import { Menu, MenuDropdown } from '@zenbu-ui/menu'
+
+const App = () => {
+  return(
+    <Menu dropdownMode="hover"
+    itemActiveFontWeight="bold">
+      <Menu.Item href="#">Home</Menu.Item>
+      <Menu.Dropdown title="Features">
+        <MenuDropdown.Item href="#" target="_blank">Feature 1</MenuDropdown.Item>
+        <MenuDropdown.Item href="#">Feature 2</MenuDropdown.Item>
+        <MenuDropdown.Item href="#">Feature 3</MenuDropdown.Item>
+        <MenuDropdown.Item href="#">Feature 4</MenuDropdown.Item>
+      </Menu.Dropdown>
+      <Menu.Item href="#">Pricing</Menu.Item>
+      <Menu.Item href="#">About</Menu.Item>
+    </Menu>
+  )
+}
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### Menu
+<MenuProps />
+
+### Menu.Item
+<MenuItemProps />
+
+### MenuDropdown
+<MenuDropdownProps />

@@ -1,0 +1,92 @@
+---
+title: Separator
+description: Visually or semantically separates content.
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage",
+  child: [{
+    name: "Coloring",
+    link: "#coloring"
+  }, {
+    name: "Style",
+    link: "#style"
+  }, {
+    name: "Text",
+    link: "#text"
+  }]
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "Separator",
+    link: "#separator"
+  }]
+}]
+---
+
+<PreviewSeparator />
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/separator" />
+
+## Usage
+
+```jsx
+import { Separator } from '@zenbu-ui/separator'
+
+const App = () => {
+  return(
+    <>
+      <h2>Title was Here</h2>
+      <Separator />
+    </>
+  )
+}
+
+export default App
+```
+
+### Coloring
+You can coloring the border separator with property **borderColor** and **borderColorContrast**, read the [color palette](/docs/color-palette) documentation for more information.
+
+<PreviewSeparatorColoring />
+
+```jsx
+<>
+  <h2>Title was Here</h2>
+  <Separator borderColor="blue" borderColorContrast="700" />
+</>
+```
+
+### Style
+
+<PreviewSeparatorStyle />
+
+```jsx
+<>
+  <h2>Title was Here</h2>
+  <Separator borderWidth="2" borderStyle="dashed" />
+</>
+```
+
+### Text
+
+<PreviewSeparatorText />
+
+```jsx
+<Separator
+text={(
+  <h2>Title was Here</h2>
+)} />
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### Separator
+<SeparatorProps />

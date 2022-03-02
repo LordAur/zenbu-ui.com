@@ -1,0 +1,60 @@
+---
+title: Tabs
+description: A set of layered sections of content—known as tab panels—that are displayed one at a time.
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage"
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "Tabs",
+    link: "#tabs"
+  }, {
+    name: "Tabs.Item",
+    link: "#tabs.item"
+  }]
+}]
+---
+
+<PreviewTabs />
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/tabs" />
+
+## Usage
+
+```jsx
+import { Tabs } from '@zenbu-ui/tabs'
+import { Text } from '@zenbu-ui/typography'
+
+const App = () => {
+  return(
+    <Tabs>
+      <Tabs.Item title={(<Text span fontSize="sm">Account</Text>)}>
+        ...
+      </Tabs.Item>
+
+      <Tabs.Item title={(<Text span fontSize="sm">Password</Text>)}>
+        ...
+      </Tabs.Item>
+    </Tabs>
+  )
+}
+
+export default App
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### Tabs
+<TabsProps />
+
+### Tabs.Item
+<TabsItemProps />

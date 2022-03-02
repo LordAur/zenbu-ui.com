@@ -1,0 +1,142 @@
+---
+title: Notification
+description: An element used for push notification.
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage",
+  child: [{
+    name: "Position",
+    link: "#position"
+  }, {
+    name: "Auto Hide",
+    link: "#autohide"
+  }, {
+    name: "Customize Box",
+    link: "#customize-box"
+  }]
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "Notification",
+    link: "#notification"
+  }, {
+    name: "NotificationProvider",
+    link: "#notificationprovider"
+  }]
+}]
+---
+
+<PreviewNotification />
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/notification" />
+
+## Usage
+To start using notification you should wrap your template with **NotificationProvider**. Then, you should call the **useNotification** function to add a notification.
+
+```jsx
+import { NotificationProvider, Notification, useNotification } from '@zenbu-ui/notification'
+
+const PushNotification = () => {
+  const notify = useNotification()
+
+  return(
+    <button
+    onClick={() => {
+      const id = Date.now().toString()
+      notify.add(id, {
+        title: (
+          <span className="flex space-x-2 items-center">
+            <div className="bg-blue-500 rounded-md w-5 h-5"></div>
+            <strong className="text-sm">Notification</strong>
+          </span>
+        ),
+        description: <p className="text-sm text-gray-800">Hello, world! This is a notification message.</p>
+      })
+    }}>Push Notification</button>
+  )
+}
+
+const App = () => {
+  return(
+    <NotificationProvider closable>
+      <PushNotification />
+    </NotificationProvider>
+  )
+}
+
+export default App
+```
+
+### Position
+<PreviewNotificationPosition />
+
+```jsx
+<NotificationProvider closable position="top-right">
+  <PushNotification />
+</NotificationProvider>
+```
+
+### AutoHide
+You can make your push notification auto-hidden. Use **autoHide** property and set the time to hide with **autoHideDelay** property, fill with millisecond.
+
+<PreviewNotificationAutoHide />
+
+```jsx
+<NotificationProvider autoHide autoHideDelay={3000}>
+  <PushNotification />
+</NotificationProvider>
+```
+
+### Customize Box
+If you want to use the default style of the notification box, you can use it like this:
+
+<PreviewNotificationCustom />
+
+```jsx
+import { NotificationProvider, Notification, useNotification } from '@zenbu-ui/notification'
+
+const PushNotification = () => {
+  const notify = useNotification()
+
+  return(
+    <button onClick={() => {
+      const id = Date.now().toString()
+      notify.addCustom(id, {
+        custom: (
+          <Notification id={id} closable
+          color="blue" colorContrast="600" border={false}
+          description={(
+            <p className="text-sm text-white">Hello, world! This is a notification message.</p>
+          )} />
+        )
+      })
+    }}>Push Notification</button>
+  )
+}
+
+const App = () => {
+  return(
+    <NotificationProvider closable>
+      <PushNotification />
+    </NotificationProvider>
+  )
+}
+
+export default App
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### Notification
+<NotificationProps />
+
+### NotificationProvider
+<NotificationProviderProps />

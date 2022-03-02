@@ -1,0 +1,121 @@
+---
+title: Card
+description: A simple box to display information with a cover image or just text content.
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage",
+  child: [{
+    name: "Aspect Ratio",
+    link: "#aspect-ratio"
+  }, {
+    name: "Background Image",
+    link: "#background-image"
+  },{
+    name: "Cover Position",
+    link: "#cover-position"
+  }, {
+    name: "Footer",
+    link: "#footer"
+  }]
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "Card",
+    link: "#card"
+  }]
+}]
+---
+
+<PreviewCard />
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/card" />
+
+## Usage
+```jsx
+import { Card } from '@zenbu-ui/card'
+
+const App = () => {
+  return(
+    <Card
+    cover="https://..." coverAlt="..."
+    title={( ...  )}
+    description={( ... )} />
+  )
+}
+
+export default App
+```
+
+### Aspect Ratio
+You can customize the aspect ratio of the cover image. By default, card components use a **3/1.464** aspect ratio, but if you want to use a **1/1** aspect ratio, use **square** or **video** to use a **16/9** aspect ratio.
+
+<PreviewCardAspectRatio />
+
+```jsx
+<Card
+cover="https://..." coverAlt="..."
+coverAspectRatio="square"
+title={( ...  )}
+description={( ... )} />
+```
+
+### Background image
+<PreviewCardBackground />
+
+```jsx
+<Card
+bgImg="https://..."
+description={( ... )} />
+```
+
+### Cover Position
+<PreviewCardPosition />
+
+```jsx
+<Card
+cover="https://..." coverAlt="..." coverWidth="32" coverPosition="left"
+title={( ...  )}
+description={( ... )} />
+
+<Card
+cover="https://..." coverAlt="..." coverWidth="32" coverPosition="right"
+title={( ...  )}
+description={( ... )} />
+```
+
+<PreviewCardPositionCenter />
+
+```jsx
+<Card
+cover="https://..." coverAlt="..." coverPosition="center"
+title={( ...  )}
+description={( ... )} />
+```
+
+### Footer
+<PreviewCardFooter />
+
+```jsx
+<Card
+cover="https://..." coverAlt="..."
+title={( ... )}
+description={( ... )}
+footer={(
+  <Button fluid icon="calendar" rounded="none"
+  color="purple" colorContrast="600"
+  fontWeight="semibold" mt="3">Request to meet the owner</Button>
+)} />
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### Card
+<CardProps />

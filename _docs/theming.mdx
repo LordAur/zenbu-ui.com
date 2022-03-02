@@ -1,0 +1,39 @@
+---
+title: Theming
+description: All of the components have a default style. You can customize the theme easily.
+---
+
+By default, all of the components of Zenbu UI have a plain design. You can customize the component with two methods. You can customize the component with properties or you can customize with **Provider**.
+
+You just need to use the component type and specify the component name to give the design you want.
+
+Here is an example of how you can change the design of a component with a **Provider**:
+
+<PreviewTheming />
+
+```jsx
+import { Provider } from '@zenbu-ui/provider'
+
+const App = () => {
+  return(
+    <Provider dark={false}
+    theme={{
+      button: {
+        "red-button": {
+          color: "red",
+          colorContrast: "600"
+        },
+        "emerald-button": {
+          color: "emerald",
+          colorContrast: "500"
+        }
+      }
+    }}>
+      <Button componentName="red-button">Button</Button>
+      <Button componentName="emerald-button">Button</Button>
+    </Provider>
+  )
+}
+
+export default App
+```

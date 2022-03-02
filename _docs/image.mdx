@@ -1,0 +1,70 @@
+---
+title: Image
+description: An image component is a replacement for img tag element.
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage",
+  child: [{
+    name: "Caption",
+    link: "#caption"
+  }, {
+    name: "Rounded",
+    link: "#rounded"
+  }]
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "Image",
+    link: "#image"
+  }]
+}]
+---
+
+<PreviewImage />
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/image" />
+
+## Usage
+```jsx
+import { Image } from '@zenbu-ui/image'
+
+const App = () => {
+  return(
+    <Image alt="..." src="https://..." />
+  )
+}
+
+export default App
+```
+
+### Caption
+<PreviewImageCaption />
+
+```jsx
+<Image
+caption="Fabian Quintero - Unsplash"
+border borderColor="gray" borderColorContrast="200" px="2" py="2"
+alt="Fabian Quintero - Unsplash" src="https://..." />
+```
+
+### Rounded
+<PreviewImageRounded />
+
+```jsx
+<Image
+rounded="lg"
+alt="Fabian Quintero - Unsplash" src="https://images.unsplash.com/photo-1637090405093-0bc0a607b441?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" />
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### Image
+<ImageProps />

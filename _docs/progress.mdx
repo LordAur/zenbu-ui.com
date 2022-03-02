@@ -1,0 +1,91 @@
+---
+title: Progress
+description:
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage",
+  child: [{
+    name: "Coloring",
+    link: "#coloring"
+  }, {
+    name: "Coloring Completed",
+    link: "#coloring-completed"
+  }, {
+    name: "Show Percentage",
+    link: "#show-percentage"
+  }, {
+    name: "Text Completed",
+    link: "#text-completed"
+  }]
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "Progress",
+    link: "#progress"
+  }]
+}]
+---
+
+<PreviewProgress />
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/progress" />
+
+## Usage
+
+```jsx
+import { Progress } from '@zenbu-ui/progress'
+
+const App = () => {
+  return(
+    <Progress percentage={50} />
+  )
+}
+
+export default App
+```
+
+### Coloring
+<PreviewProgressColoring />
+
+```jsx
+<Progress
+color="red" colorContrast="400"
+bgColor="slate" bgColorContrast="500"
+percentage={50} />
+```
+
+### Coloring Completed
+<PreviewProgressCompleted />
+
+```jsx
+<Progress completeColor="green" completeColorContrast="500" percentage={value} showPercentage />
+```
+
+### Show Percentage
+<PreviewProgressPercentage />
+
+```jsx
+<Progress percentage={value} showPercentage />
+```
+
+### Text Completed
+<PreviewProgressText />
+
+```jsx
+<Progress completeText="Completed"
+completeColor="green" completeColorContrast="500"
+percentage={value} showPercentage />
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### Progress
+<ProgressProps />

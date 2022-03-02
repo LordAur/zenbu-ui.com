@@ -1,0 +1,184 @@
+---
+title: Flexbox
+description: Manage the layout, alignment, components, and more with a full suite of responsive flexbox utilities.
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage",
+}, {
+  name: "Flex",
+  link: "#flex",
+  child: [{
+    name: "Initial",
+    link: "#flex-initial"
+  }, {
+    name: "Flex 1",
+    link: "#flex1"
+  }, {
+    name: "Auto",
+    link: "#flex-auto"
+  }, {
+    name: "None",
+    link: "#flex-none"
+  }]
+}, {
+  name: "Flex Grow",
+  link: "#flex-grow",
+  child: [{
+    name: "Grow",
+    link: "#grow"
+  }, {
+    name: "Ungrow",
+    link: "#ungrow"
+  }]
+}, {
+  name: "Flex Shrink",
+  link: "#flex-shrink",
+  child: [{
+    name: "Shrink",
+    link: "#shrink"
+  }, {
+    name: "Unshrink",
+    link: "#unshrink"
+  }]
+},{
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "Flexbox",
+    link: "#flexbox"
+  }]
+}]
+---
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/flexbox" />
+
+## Usage
+
+```jsx
+import { Flexbox } from '@zenbu-ui/flexbox'
+
+const App = () => {
+  return(
+    <Flexbox direction="row" gap="3">
+      <Component />
+      <Component />
+    </Flexbox>
+  )
+}
+
+export default
+```
+
+## Flex
+
+### Flex Initial
+Use **flexInitial** to allow a flex item to shrink but not grow, taking into account its initial size:
+<PreviewFlexboxInitial />
+
+```jsx
+<Flexbox gap="3">
+  <Flexbox flexNone width="14" height="14">1</Flexbox>
+  <Flexbox flexInitial width="24" sm={{width: "64"}}>2</Flexbox>
+  <Flexbox flexInitial width="32" sm={{width: "14"}}>3</Flexbox>
+</Flexbox>
+```
+
+### Flex1
+Use **flex1** to allow a flex item to grow and shrink as needed, ignoring its initial size:
+<PreviewFlexbox1 />
+
+```jsx
+<Flexbox gap="3">
+  <Flexbox flexNone width="14" height="14">1</Flexbox>
+  <Flexbox flex1 width="64">2</Flexbox>
+  <Flexbox flex1 width="32">3</Flexbox>
+</Flexbox>
+```
+
+### Flex Auto
+Use **flexAuto** to allow a flex item to grow and shrink, taking into account its initial size:
+<PreviewFlexboxAuto />
+
+```jsx
+<Flexbox gap="3">
+  <Flexbox flexNone width="14" height="14">1</Flexbox>
+  <Flexbox flexAuto width="64">2</Flexbox>
+  <Flexbox flexAuto width="32">3</Flexbox>
+</Flexbox>
+```
+
+### Flex None
+Use **flexNone** to prevent a flex item from growing or shrinking:
+<PreviewFlexboxNone />
+
+```jsx
+<Flexbox gap="3">
+  <Flexbox flexNone width="14" height="14">1</Flexbox>
+  <Flexbox flexNone width="44">2</Flexbox>
+  <Flexbox flex1 width="32">3</Flexbox>
+</Flexbox>
+```
+
+## Flex Grow
+
+### Grow
+Use **grow** to allow a flex item to grow to fill any available space:
+<PreviewFlexGrow />
+
+```jsx
+<Flexbox gap="3">
+  <Flexbox flexNone width="14" height="14">1</Flexbox>
+  <Flexbox flexNone grow>2</Flexbox>
+  <Flexbox flexNone width="14">3</Flexbox>
+</Flexbox>
+```
+
+### Ungrow
+Use **unGrow** to prevent a flex item from growing:
+<PreviewFlexUngrow />
+
+```jsx
+<Flexbox gap="3">
+  <Flexbox flexNone grow width="14" height="14">1</Flexbox>
+  <Flexbox flexNone unGrow>2</Flexbox>
+  <Flexbox flexNone grow width="14">3</Flexbox>
+</Flexbox>
+```
+
+## Flex Shrink
+
+### Shrink
+Use **shrink** to allow a flex item to shrink if needed:
+<PreviewFlexShrink />
+
+```jsx
+<Flexbox gap="3">
+  <Flexbox flexNone grow width="14" height="14">1</Flexbox>
+  <Flexbox shrink unGrow width="64">2</Flexbox>
+  <Flexbox flexNone grow width="14">3</Flexbox>
+</Flexbox>
+```
+
+### Unshrink
+Use **unShrink** to prevent a flex item from shrinking:
+<PreviewFlexUnshrink />
+
+```jsx
+<Flexbox gap="3">
+  <Flexbox flex1 grow width="14" height="14">1</Flexbox>
+  <Flexbox unShrink unGrow width="32">2</Flexbox>
+  <Flexbox flex1 grow width="14">3</Flexbox>
+</Flexbox>
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### Flexbox
+<FlexboxProps />

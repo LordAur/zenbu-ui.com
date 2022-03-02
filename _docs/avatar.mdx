@@ -1,0 +1,93 @@
+---
+title: Avatar
+description: An image to represent people or objects. It supports images, icons, or letters.
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage",
+  child: [{
+    name: "Blur",
+    link: "#blur"
+  }, {
+    name: "Text",
+    link: "#text"
+  }, {
+    name: "Group",
+    link: "#group"
+  }]
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "Avatar",
+    link: "#avatar"
+  }, {
+    name: "Avatar.Group",
+    link: "#avatar.group"
+  }]
+}]
+---
+
+<PreviewAvatar />
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/avatar" />
+
+## Usage
+```jsx
+import { Avatar } from '@zenbu-ui/avatar'
+
+const App = () => {
+  return(
+    <Avatar alt="Avatar" src="https://" />
+  )
+}
+
+export default App
+```
+
+### Blur
+<PreviewAvatarBlur />
+
+### Text
+You can change the avatar background color and the text color using property **bgColor**, **bgColorContrast**, **darkBgColor**, and **darkBgColorContrast** to change the background color.
+
+Use property **textColor**, **textColorContrast**, **darkTextColor**, and **darkTextColorContrast** to change the text color.
+
+<PreviewAvatarText />
+
+```jsx
+<Avatar
+alt=""
+bgColor="yellow" bgColorContrast="200"
+textColor="yellow" textColorContrast="500"
+text="YP" />
+```
+
+### Group
+<PreviewAvatarGroup />
+
+```jsx
+<Avatar.Group>
+  <Avatar alt="" src="" />
+  <Avatar alt="" src="" />
+  <Avatar
+  alt=""
+  bgColor="yellow" bgColorContrast="200"
+  textColor="yellow" textColorContrast="500"
+  text="YP" />
+</Avatar.Group>
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### Avatar
+<AvatarProps />
+
+### Avatar.Group
+<AvatarGroupProps />

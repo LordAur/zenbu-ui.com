@@ -1,0 +1,106 @@
+---
+title: Header
+description: A basic header element.
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage",
+  child: [{
+    name: "Ellipsis",
+    link: "#ellipsis"
+  }, {
+    name: "Text Transform",
+    link: "#text-transform"
+  }, {
+    name: "Marker",
+    link: "#marker"
+  }, {
+    name: "Marker Rotate",
+    link: "#marker-rotate"
+  }]
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "Header",
+    link: "#header"
+  }]
+}]
+---
+
+<PreviewHeader />
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/typography" />
+
+## Usage
+
+```jsx
+import { Header } from '@zenbu-ui/typography'
+
+const App = () => {
+  return(
+    <>
+      <Header as="h1">Header 1</Header>
+      <Header as="h2">Header 2</Header>
+      <Header as="h3">Header 3</Header>
+      <Header as="h4">Header 4</Header>
+      <Header as="h5">Header 5</Header>
+      <Header as="h6">Header 6</Header>
+    </>
+  )
+}
+
+export default App
+```
+
+### Ellipsis
+<PreviewHeaderEllipsis />
+
+```jsx
+<Header as="h4" ellipsis>
+  The quick brown fox jumps over the lazy dog.
+</Header>
+```
+
+### Text Transform
+<PreviewHeaderTransform />
+
+```jsx
+<Header as="h4" uppercase>...</Header>
+<Header as="h4" lowercase>...</Header>
+<Header as="h4" capitalize>...</Header>
+```
+
+### Marker
+<PreviewHeaderMarker />
+
+```jsx
+<Header as="h4">
+  When you look
+  <Header as="h4" marker color="white" markerColor="pink" markerColorContrast="500">annoyed</Header>
+  all the time, people think that you're busy
+</Header>
+```
+
+### Marker Rotate
+<PreviewHeaderMarkerRotate />
+
+```jsx
+<Header as="h4">
+  When you look
+  <Header as="h4" marker markerRotate="-3"
+  color="white" markerColor="pink" markerColorContrast="500">annoyed</Header>
+  all the time, people think that you're busy
+</Header>
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### Header
+<HeaderProps />

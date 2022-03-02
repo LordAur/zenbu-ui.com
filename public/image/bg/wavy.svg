@@ -1,0 +1,19 @@
+<svg id="Decoration" xmlns="http://www.w3.org/2000/svg" width="464" height="380" viewBox="0 0 464 380">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00e5d1;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M464,1080s-12.8-52.06-76.8-63.63-102.4-40.5-105.6-133.059-118.4-69.42-156.8-118.592S67.2,689.515,0,703.977V1080H464Z" transform="translate(0 -700)"/>
+  <path class="cls-2" d="M319.088,946.909a37.046,37.046,0,1,0,37.088,37.045,37.066,37.066,0,0,0-37.088-37.045M367.232,912A11.755,11.755,0,1,0,379,923.755,11.762,11.762,0,0,0,367.232,912" transform="translate(0 -700)"/>
+</svg>

@@ -1,0 +1,80 @@
+---
+title: Statistic
+description:
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage",
+  child: [{
+    name: "Prefix & Suffix",
+    link: "#prefix-&-suffix"
+  }, {
+    name: "Icon",
+    link: "#icon"
+  }, {
+    name: "Separator",
+    link: "#separator"
+  }]
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "Statistic",
+    link: "#statistic"
+  }]
+}]
+---
+
+<PreviewStatistic />
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/statistic" />
+
+## Usage
+
+```jsx
+import { Statistic } from '@zenbu-ui/statistic'
+
+const App = () => {
+  return(
+    <Statistic title="Active Users" value={1000} />
+  )
+}
+
+export default App
+```
+
+### Prefix & Suffix
+<PreviewStatisticPrefSuff />
+
+```jsx
+<Statistic title="Wallet" value={1000} prefix="Rp" />
+
+<Statistic title="Orders" value={100} suffix="K" />
+```
+
+### Icon
+<PreviewStatisticIcon />
+
+```jsx
+<Statistic
+icon={(<Icon icon="users-solid" color="black" />)}
+title="Active Users" value={1000} />
+```
+
+### Separator
+<PreviewStatisticSeparator />
+
+```jsx
+<Statistic title="Active Users" value={1000} separator="comma" />
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### Statistic
+<StatisticProps />

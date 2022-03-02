@@ -1,0 +1,82 @@
+---
+title: Popover
+description: Displays rich content in a portal, triggered by a button.
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage",
+  child: [{
+    name: "Position",
+    link: "#position"
+  }, {
+    name: "Closable",
+    link: "#closable"
+  }]
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "Popover",
+    link: "#popover"
+  }]
+}]
+---
+
+<PreviewPopover />
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/popover" />
+
+## Usage
+
+```jsx
+import { Button } from '@zenbu-ui/button'
+import { Popover } from '@zenbu-ui/popover'
+
+const App = () => {
+  return(
+    <Popover
+    trigger={(
+      <Button>Popover Button</Button>
+    )}
+    content={(
+      <p>Bottom popover</p>
+    )} />
+  )
+}
+
+export default App
+```
+
+### Position
+You can set the position of popover on **left**, **right**, **top** or **bottom**.
+
+<PreviewPopoverPosition />
+
+```jsx
+<Popover
+position="top"
+trigger={( ... )}
+content={( ... )} />
+```
+
+### Closable
+
+<PreviewPopoverClosable />
+
+```jsx
+<Popover
+closable
+trigger={( ... )}
+content={( ... )} />
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### Popover
+<PopoverProps />

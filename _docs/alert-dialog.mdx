@@ -1,0 +1,55 @@
+---
+title: Alert Dialog
+description: A modal dialog that interrupts the user with important content and expects a response.
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage"
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "Alert Dialog",
+    link: "#alert-dialog"
+  }]
+}]
+---
+
+<PreviewAlertDialog />
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/alert-dialog" />
+
+## Usage
+```jsx
+import { useState } from 'react'
+import { AlertDialog } from '@zenbu-ui/alert-dialog'
+
+const App = () => {
+  const [visible, setVisible] = useState(false)
+
+  return(
+    <>
+      <Button onClick={() => setVisible(true)}>Show Alert</Button>
+      <AlertDialog
+      visible={visible}
+      okText="Yes, delete account" cancelText="Cancel"
+      onOk={() => setVisible(false)} onCancel={() => setVisible(false)}>
+        ...
+      </AlertDialog>
+    </>
+  )
+}
+
+export default App
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### AlertDialog
+<AlertDialogProps />

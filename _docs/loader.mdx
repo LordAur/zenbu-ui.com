@@ -1,0 +1,45 @@
+---
+title: Loader
+description: A dimmer to hide information while loading progress.
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage"
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "Loader",
+    link: "#loader"
+  }]
+}]
+---
+
+<PreviewLoader />
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/loader" />
+
+## Usage
+
+```jsx
+import { Loader } from '@zenbu-ui/loader'
+
+const App = () => {
+  return(
+    <Loader visible={true} />
+  )
+}
+
+export default App
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### Loader
+<LoaderProps />

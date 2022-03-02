@@ -1,0 +1,82 @@
+---
+title: Dialog
+description: A dialog is a window overlaid on either the primary window or another dialog window.
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage",
+  child: [{
+    name: "Title",
+    link: "#title"
+  }, {
+    name: "Footer",
+    link: "#footer"
+  }]
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "Dialog",
+    link: "#dialog"
+  }]
+}]
+---
+
+<PreviewDialog />
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/dialog" />
+
+## Usage
+```jsx
+import { useState } from 'react'
+import { Dialog } from '@zenbu-ui/dialog'
+
+const App = () => {
+  const [visible, setVisible] = useState(false)
+
+  return(
+    <>
+      <Button onClick={() => setVisible(true)}>Show Dialog</Button>
+
+      <Dialog visible={visible} onClose={() => setVisible(false)}>
+        ...
+      </Dialog>
+    </>
+  )
+}
+
+export default App
+```
+
+### Title
+<PreviewDialogTitle />
+
+```jsx
+<Dialog visible={visible}
+title={( ... )}
+onClose={() => setVisible(false)}>
+  ...
+</Dialog>
+```
+
+### Footer
+<PreviewDialogFooter />
+
+```jsx
+<Dialog visible={visible}
+footer={( ... )}
+onClose={() => setVisible(false)}>
+  ...
+</Dialog>
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### Dialog
+<DialogProps />

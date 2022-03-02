@@ -1,0 +1,45 @@
+---
+title: Link
+description: A basic link element.
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage"
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "Link",
+    link: "#link"
+  }]
+}]
+---
+
+<PreviewLink />
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/typography" />
+
+## Usage
+
+```jsx
+import { Link } from '@zenbu-ui/link'
+
+const App = () => {
+  return(
+    <Link href="/"
+    color="blue" colorContrast="400"
+    colorHover="blue" colorHoverContrast="600">Tester Link</Link>
+  )
+}
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### Link
+<LinkProps />

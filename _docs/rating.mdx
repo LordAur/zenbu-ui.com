@@ -1,0 +1,67 @@
+---
+title: Rating
+description: A rating indicates user interest in content.
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage",
+  child: [{
+    name: "Count",
+    link: "#count"
+  }, {
+    name: "Heart",
+    link: "#heart"
+  }]
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "Rating",
+    link: "#rating"
+  }]
+}]
+---
+
+<PreviewRating />
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/rating" />
+
+## Usage
+```jsx
+import { Rating } from '@zenbu-ui/rating'
+
+const App = () => {
+  return(
+    <Rating defaultValue={3} color="blue" colorContrast="600" />
+  )
+}
+
+export default App
+```
+
+### Count
+You can set the max rating with count property:
+
+<PreviewRatingCount />
+
+```jsx
+<Rating defaultValue={3} count={6} color="blue" colorContrast="600" />
+```
+
+### Heart
+<PreviewRatingHeart />
+
+```jsx
+<Rating defaultValue={3} heart color="pink" colorContrast="500" />
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### Rating
+<RatingProps />

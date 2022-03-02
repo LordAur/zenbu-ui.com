@@ -1,0 +1,88 @@
+---
+title: Tooltip
+description: A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage",
+  child: [{
+    name: "Popup",
+    link: "#popup"
+  }, {
+    name: "Position",
+    link: "#position"
+  }]
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "Tooltip",
+    link: "#tooltip"
+  }]
+}]
+---
+
+<PreviewTooltip />
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/tooltip" />
+
+## Usage
+
+```jsx
+import { Tooltip } from '@zenbu-ui/tooltip'
+
+const App = () => {
+  return(
+    <Tooltip
+    trigger={(
+      <Button>Tooltip Button</Button>
+    )}
+    content={(
+      <p>Bottom tooltip</p>
+    )} />
+  )
+}
+
+export default App
+```
+
+### Popup
+If you want to make your tooltip dialog not immediately closed, used the **popup** property.
+
+<PreviewTooltipPopup />
+
+```jsx
+<Tooltip
+popup
+trigger={(
+  ...
+)}
+content={(
+  ...
+)} />
+```
+
+### Position
+<PreviewTooltipPosition />
+
+```jsx
+<Tooltip
+position="top"
+trigger={(
+  ...
+)}
+content={(
+  ...
+)} />
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### Tooltip
+<TooltipProps />

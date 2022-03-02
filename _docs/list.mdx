@@ -1,0 +1,147 @@
+---
+title: List
+description: List is a flexible component for displaying a series of content.
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage",
+  child: [{
+    name: "Marker Color",
+    link: "#marker-color"
+  }, {
+    name: "Type",
+    list: "#type"
+  }, {
+    name: "Nested",
+    link: "#nested"
+  }, {
+    name: "Icon",
+    link: "#icon"
+  }, {
+    name: "Box",
+    link: "#box"
+  }]
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "List",
+    link: "#list"
+  }, {
+    name: "List.Item",
+    link: "#list.item"
+  }, {
+    name: "ListBox",
+    link: "#listbox"
+  }]
+}]
+---
+
+<PreviewList />
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/list" />
+
+## Usage
+```jsx
+import { List } from '@zenbu-ui/list'
+
+const App = () => {
+  return(
+    <List>
+      <List.Item>Apples</List.Item>
+      <List.Item>Pears</List.Item>
+      <List.Item>Oranges</List.Item>
+    </List>
+  )
+}
+
+export default App
+```
+
+### Marker Color
+<PreviewListMarkerColor />
+
+```jsx
+<List type="disc" listColor="sky" listColorContrast="300">
+  <List.Item>Apples</List.Item>
+  <List.Item>Pears</List.Item>
+  <List.Item>Oranges</List.Item>
+</List>
+```
+
+### Type
+<PreviewListType />
+
+```jsx
+<List type="roman">
+  <List.Item>Apples</List.Item>
+  <List.Item>Pears</List.Item>
+  <List.Item>Oranges</List.Item>
+</List>
+```
+
+### Nested
+<PreviewListNested />
+
+```jsx
+<List type="decimal" space="2">
+  <List.Item>Getting Started</List.Item>
+  <List.Item>Introduction</List.Item>
+  <List.Item>
+    Languages
+    <List.Nested>
+      <List.Item>HTML</List.Item>
+      <List.Item>Typescript</List.Item>
+      <List.Item>CSS</List.Item>
+    </List.Nested>
+  </List.Item>
+  <List.Item>Review</List.Item>
+</List>
+```
+
+### Icon
+<PreviewListIcon />
+
+```jsx
+<List>
+  <List.Item icon="user-group">Kodepanda Kreasi Media</List.Item>
+  <List.Item icon="location-marker">Medan, Indonesia</List.Item>
+  <List.Item icon="mail-open">yudha@kodepanda.com</List.Item>
+  <List.Item icon="link" link="https://kodepanda.com">kodepanda.com</List.Item>
+</List>
+```
+
+### Box
+<PreviewListBox />
+
+```jsx
+<ListBox
+bgColor="white"
+bgActiveColor="blue" bgActiveColorContrast="600"
+textColor="slate" textColorContrast="700"
+textActiveColor="white">
+  <ListBox.Item active>
+    ...
+  </ListBox.Item>
+  <ListBox.Item>
+    ...
+  </ListBox.Item>
+</ListBox>
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### List
+<ListProps />
+
+### List.Item
+<ListItemProps />
+
+### ListBox
+<ListBoxProps />

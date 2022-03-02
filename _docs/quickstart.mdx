@@ -1,0 +1,37 @@
+---
+title: Quickstart
+description: A quick tutorial to set up Zenbu UI.
+navigation: [{
+  name: "Install component",
+  link: "#install-the-react-component",
+}, {
+  name: "Generate utility css",
+  link: "#generate-utility-css"
+}, {
+  name: "Wrap your component",
+  link: "#wrap-your-component"
+}]
+---
+
+You can install all the components of the Zenbu UI, or you can install only certain components. Zenbu UI uses Tailwind CSS as utilities, if you want to use Zenbu UI you must use Tailwind too.
+
+## 1. Install the react component
+Install the component from your command line. We recommended pinning to a specific version to avoid breaking changes while we are in beta.
+
+<NpmInstall packageName="@zenbu-ui/react" />
+
+## 2. Generate utility scss
+Zenbu UI using tailwind as utility CSS. First, you must copy file [tailwind.config.js](https://github.com/KodepandaID/zenbu-ui/blob/main/tailwind.config.js) from our Github and copy it to your project folder, then generate the CSS with the command:
+
+<TailwindGenerate />
+
+## 3. Wrap your component
+Wrap your component with Provider and import the css:
+
+```jsx
+import 'your-project-folder/style.css'
+
+<Provider dark={false}>
+  <YourComponent />
+</Provider>
+```

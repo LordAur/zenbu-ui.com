@@ -1,0 +1,76 @@
+---
+title: Badge
+description: Wrap your element with a Badge to display numerical information for a user.
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage",
+  child: [{
+    name: "Overflow Count",
+    link: "#overflow-count"
+  }, {
+    name: "Preffix and Suffix",
+    link: "#preffix-and-suffix"
+  }]
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "Badge",
+    link: "#badge"
+  }]
+}]
+---
+
+<PreviewBadge />
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/badge" />
+
+## Usage
+```jsx
+import { Badge } from '@zenbu-ui/badge'
+
+const App = () => {
+  return(
+    <Badge count={5}>
+      <YourComponent />
+    </Badge>
+  )
+}
+
+export default App
+```
+
+### Overflow Count
+<PreviewBadgeOverflow />
+
+```jsx
+<Badge count={100} overflowCount={99}>
+  <YourComponent />
+</Badge>
+```
+
+### Preffix and Suffix
+<PreviewBadgePreSuff />
+
+```jsx
+<>
+  <Badge count={100} preffix=">">
+    <YourComponent />
+  </Badge>
+  <Badge count={100} suffix="K">
+    <YourComponent />
+  </Badge>
+</>
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### Badge
+<BadgeProps />

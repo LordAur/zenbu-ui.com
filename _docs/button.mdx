@@ -1,0 +1,128 @@
+---
+title: Button
+description: An operator to trigger the operations by clicking action.
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage",
+  child: [{
+    name: "Icon",
+    link: "#icon"
+  }, {
+    name: "Loading",
+    link: "#loading"
+  }, {
+    name: "Group",
+    link: "#group"
+  }, {
+    name: "Dropdown",
+    link: "#dropdown"
+  }]
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "Button",
+    link: "#button"
+  }, {
+    name: "ButtonGroup",
+    link: "#buttongroup"
+  }, {
+    name: "ButtonGroup.Item",
+    link: "#buttongroup.item"
+  }, {
+    name: "ButtonDropdown",
+    link: "#buttondropdown"
+  }, {
+    name: "ButtonDropdown.Item",
+    link: "#buttondropdown.item"
+  }]
+}]
+---
+
+<PreviewButton />
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/button" />
+
+## Usage
+```jsx
+import { Button } from '@zenbu-ui/button'
+
+const App = () => {
+  return(
+    <Button color="blue" colorContrast="600">Button</Button>
+  )
+}
+
+export default App
+```
+
+### Icon
+<PreviewButtonIcon />
+
+```jsx
+<Button icon="phone-solid" iconHeight="4" iconColor="white" />
+<Button icon="phone-solid" iconHeight="4" iconColor="white">Phone</Button>
+```
+
+### Loading
+<PreviewButtonLoading />
+
+```jsx
+<Button loading loadingText="Please Wait..." />
+```
+
+### Group
+<PreviewButtonGroup />
+
+```jsx
+<ButtonGroup color="gray" colorContrast="200" colorHover="gray" colorHoverContrast="300">
+  <ButtonGroup.Item icon="menu" />
+  <ButtonGroup.Item icon="menu-alt-2" />
+  <ButtonGroup.Item icon="menu-alt-3" />
+</ButtonGroup>
+```
+
+### Dropdown
+<PreviewButtonDropdown />
+
+```jsx
+<ButtonDropdown dropdownIconHeight="4">
+  Options
+  <ButtonDropdown.Item>New Tab</ButtonDropdown.Item>
+  <ButtonDropdown.Item>New Window</ButtonDropdown.Item>
+  <ButtonDropdown.Item disabled icon="shield-check">New Private Window</ButtonDropdown.Item>
+  <ButtonDropdown.Item>
+    Favorites
+    <ButtonDropdownHorizontal>
+      <ButtonDropdown.Item>New Tab</ButtonDropdown.Item>
+      <ButtonDropdown.Item>New Window</ButtonDropdown.Item>
+      <ButtonDropdown.Item>Download</ButtonDropdown.Item>
+    </ButtonDropdownHorizontal>
+  </ButtonDropdown.Item>
+  <ButtonDropdown.Item icon="cloud-download">Download</ButtonDropdown.Item>
+</ButtonDropdown>
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### Button
+<ButtonProps />
+
+### ButtonGroup
+<ButtonGroupProps />
+
+### ButtonGroup.Item
+<ButtonGroupItemProps />
+
+### ButtonDropdown
+<ButtonDropdownProps />
+
+### ButtonDropdown.Item
+<ButtonDropdownItemProps />

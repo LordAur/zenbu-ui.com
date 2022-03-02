@@ -1,0 +1,131 @@
+---
+title: Text
+description: A plain text element, it will be rendered as p, i, strong, or span element.
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage",
+  child: [{
+    name: "Indent",
+    link: "#indent"
+  }, {
+    name: "First Letter",
+    link: "#first-letter"
+  }, {
+    name: "First Letter Float",
+    link: "#first-letter-float"
+  },{
+    name: "Decoration",
+    link: "#decoration"
+  }, {
+    name: "Selection Color",
+    link: "#selection-color"
+  }]
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "Text",
+    link: "#text"
+  }]
+}]
+---
+
+<PreviewText />
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/typography" />
+
+## Usage
+To styling text we have a lot of properties, you must read the [font](/docs/font) documentation to understand it better.
+
+```jsx
+import { Text } from '@zenbu-ui/typography'
+
+const App = () => {
+  return(
+    <Text
+    color="slate" colorContrast="700"
+    darkColor="slate" darkColorContrast="200"
+    fontWeight="bold" textTransform="capitalize">
+      The quick brown fox jumps over the lazy dog.
+    </Text>
+  )
+}
+
+export default App
+```
+
+### Indent
+<PreviewTextIndent />
+
+```jsx
+<Text textIndent="8">
+  ...
+</Text>
+```
+
+### First Letter
+<PreviewTextFirstLetter />
+
+```jsx
+<Text
+color="slate" colorContrast="700"
+darkColor="slate" darkColorContrast="200"
+firstLetterFontSize="7xl" firstLetterFontWeight="bold" firstLetterTextTransform="uppercase"
+firstLetterTextColor="black" firstLetterSpacing={{
+  mr: "2"
+}}>
+  ...
+</Text>
+```
+
+### First Letter Float
+<PreviewTextFirstLetterFloat />
+
+```jsx
+<Text
+color="slate" colorContrast="700"
+darkColor="slate" darkColorContrast="200"
+firstLetterFontSize="7xl" firstLetterFontWeight="bold" firstLetterTextTransform="uppercase"
+firstLetterFloat="left" firstLetterTextColor="black"
+firstLetterSpacing={{
+  mr: "2"
+}}>
+  ...
+</Text>
+```
+
+### Decoration
+<PreviewTextDecoration />
+
+```jsx
+<Text underline
+textDecorationColor="pink" textDecorationColorContrast="500"
+textDecorationStyle="wavy">
+  The quick brown fox jumps over the lazy dog.
+</Text>
+```
+
+### Selection Color
+You can change the selection text color, try to select word bellow:
+
+<PreviewTextSelection />
+
+```jsx
+<Text
+selectionColor="emerald" selectionColorContrast="500"
+selectionTextColor="white">
+  ...
+</Text>
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### Text
+<TextProps />

@@ -1,0 +1,54 @@
+---
+title: Accordion
+description: A vertically stacked set of interactive headings that each reveal an associated section of content.
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage"
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "Accordion",
+    link: "#accordion"
+  }, {
+    name: "Accordion.Item",
+    link: "#accordion.item"
+  }]
+}]
+---
+
+<PreviewAccordion />
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/accordion" />
+
+## Usage
+```jsx
+import { Accordion } from '@zenbu-ui/accordion'
+
+const App = () => {
+  return(
+    <Accordion>
+      <Accordion.Item title="Accordion #1">...</Accordion.Item>
+      <Accordion.Item title="Accordion #2">...</Accordion.Item>
+      <Accordion.Item title="Accordion #3">...</Accordion.Item>
+    </Accordion>
+  )
+}
+
+export default App
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### Accordion
+<AccordionProps />
+
+### Accordion.Item
+<AccordionItemProps />

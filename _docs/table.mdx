@@ -1,0 +1,186 @@
+---
+title: Table
+description: A table displays a collections of data grouped into rows.
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage",
+  child: [{
+    name: "Columns Structure",
+    link: "#columns-structure"
+  }, {
+    name: "Coloring",
+    link: "#coloring"
+  }, {
+    name: "Striping",
+    link: "#striping"
+  }, {
+    name: "Numbering",
+    link: "#numbering"
+  }, {
+    name: "Checkbox",
+    link: "#checkbox"
+  }, {
+    name: "Row Click",
+    link: "#row-click"
+  }]
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "Table",
+    link: "#table"
+  }]
+}]
+---
+
+<PreviewTable />
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/table" />
+
+## Usage
+Table components used array objects to create columns and rows. See the key and type below:
+
+### Columns Structure
+<ColumnTable />
+
+```jsx
+import { Table } from '@zenbu-ui/table'
+
+const columns = [{
+  header: "Name",
+  accessor: "name",
+  position: "left"
+}, {
+  header: "Job",
+  accessor: "job",
+  position: "left"
+}, {
+  header: "Age",
+  accessor: "age",
+  position: "left",
+  width: "12"
+}]
+
+const rows = [{
+  name: "Jhon",
+  job: "Frontend Engineer",
+  age: 24
+}, {
+  name: "Gill",
+  job: "DevOps",
+  age: 31
+}, {
+  name: "Oesman",
+  job: "Backend Engineer",
+  age: <b>27</b>
+}]
+
+const App = () => {
+  return(
+    <Table columns={columns} rows={rows} />
+  )
+}
+
+export default App
+```
+
+### Coloring
+<PreviewTableColoring />
+
+```jsx
+<Table
+columns={columns} rows={rows} border
+textColor="white"
+borderColor="blue" borderColorContrast="700"
+colColor="blue" colColorContrast="600"
+rowColor="blue" rowColorContrast="500" />
+```
+
+### Striping
+<PreviewTableStriping />
+
+```jsx
+<Table stripe
+columns={columns} rows={rows}
+textColor="white"
+borderColor="blue" borderColorContrast="700"
+colColor="blue" colColorContrast="700"
+rowColor="blue" rowColorContrast="500"
+stripeColor="blue" stripeColorContrast="600" />
+```
+
+### Numbering
+<PreviewTableNumbering />
+
+```jsx
+<Table stripe numbering
+rowNumber={(idx) => (<b>{idx}.</b>)}
+columns={columns} rows={rows}
+textColor="white"
+borderColor="blue" borderColorContrast="700"
+colColor="blue" colColorContrast="700"
+rowColor="blue" rowColorContrast="500"
+stripeColor="blue" stripeColorContrast="600" />
+```
+
+### Checkbox
+<PreviewTableCheckbox />
+
+```jsx
+import { useState } from 'react'
+import { Table } from '@zenbu-ui/table'
+
+const [selected, setSelected] = useState([])
+
+const App = () => {
+  return(
+    <Table stripe checkbox selected={selected}
+    columns={columns} rows={rows}
+    textColor="gray" textColorContrast="700"
+    borderColor="gray" borderColorContrast="300"
+    colColor="gray" colColorContrast="400"
+    rowColor="gray" rowColorContrast="200"
+    stripeColor="gray" stripeColorContrast="300"
+    onSelected={(selected) => setSelected([...selected])} />
+  )
+}
+```
+
+### Click Rows
+<PreviewTableOnClick />
+
+```jsx
+const rows = [{
+  name: "Jhon",
+  job: "Frontend Engineer",
+  age: 24
+}, {
+  name: "Gill",
+  job: "DevOps",
+  age: 31
+}, {
+  name: "Oesman",
+  job: "Backend Engineer",
+  age: <b>27</b>,
+  onClick: () => { ... }
+}]
+
+<Table
+columns={columns} rows={rows} border
+textColor="white"
+borderColor="blue" borderColorContrast="700"
+colColor="blue" colColorContrast="600"
+rowColor="blue" rowColorContrast="500" />
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### Table
+<TableProps />

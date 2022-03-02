@@ -1,0 +1,49 @@
+---
+title: Icon
+description: An icon is a symbol to represent information or action to users.
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage"
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "Icon",
+    link: "#icon"
+  }]
+}]
+---
+
+<PreviewIcon />
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/icon" />
+
+## Usage
+Our icon component using [Heroicons](https://heroicons.com/) from Tailwind. You can search icon name from heroicons.
+
+```jsx
+import { Icon } from '@zenbu-ui/icon'
+
+const App = () => {
+  return(
+    <>
+      <Icon icon="academic-cap" color="blue" colorContrast="600" />
+      <Icon icon="academic-cap-solid" color="blue" colorContrast="600" />
+    </>
+  )
+}
+
+export default App
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### Icon
+<IconProps />

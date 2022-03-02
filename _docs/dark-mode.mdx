@@ -1,0 +1,44 @@
+---
+title: Dark Mode
+description: Zenbu UI comes with a built-in dark mode and can be implemented on all components.
+navigation: [{
+  name: "Usage",
+  link: "#usage"
+}, {
+  name: "Example",
+  link: "#example"
+}]
+---
+
+By default, all of the component Zenbu UI supported dark mode. No need for extra effort just use props like **darkColor** and **darkColorContrast**.
+
+## Usage
+To get dark mode you must wrap your main component with Provider and set the dark properties:
+
+```jsx
+import { useState } from 'react'
+import 'your-project-folder/style.css'
+
+export let toggleDarkMode: () => void
+const App = () => {
+  const [dark, setDark] = useState(false)
+  toggleDarkMode = () => {
+    setDark(!dark)
+  }
+
+  return(
+    <Provider dark={dark}>
+      <YourComponent />
+    </Provider>
+  )
+}
+
+export default App
+```
+
+## Example
+We will give some examples of using dark mode. Here is an example of a dark mode on the button component.
+But this doesn't only apply to the button component. You can use the same method for the other components.
+
+<PreviewDarkMode />
+<ExampleDarkMode />

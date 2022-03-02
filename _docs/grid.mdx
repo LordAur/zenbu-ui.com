@@ -1,0 +1,84 @@
+---
+title: Grid
+description: Mobile-first flexbox grid to build layouts of all shapes and sizes.
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage",
+  child: [{
+    name: "Width",
+    link: "#width"
+  }, {
+    name: "Nested",
+    link: "#nested"
+  }]
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "Grid",
+    link: "#grid"
+  }, {
+    name: "Grid.Column",
+    link: "#grid.column"
+  }]
+}]
+---
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/grid" />
+
+## Usage
+```jsx
+import { Grid } from '@zenbu-ui/grid'
+
+const App = () => {
+  return(
+    <Grid>
+      <Grid.Column width="1/2">...</Grid.Column>
+      <Grid.Column width="1/2">...</Grid.Column>
+    </Grid>
+  )
+}
+
+export default App
+```
+
+### Width
+You can set the width of components with percentage or with a fixed number. Read the [sizing](/docs/sizing) documentation, to know the available width percentage and fixed numbers.
+
+<PreviewGridWidth />
+
+### Nested
+You can nest columns to have more flexibility in your design. You only need to follow this structure:
+
+<PreviewGridNested />
+
+```jsx
+<Grid>
+  <Grid.Column width="full">
+    <YourComponent />
+    <Grid.Column nested py="5">
+      <Grid.Column width="1/2">
+        ...
+      </Grid.Column>
+      <Grid.Column width="1/2">
+        ...
+      </Grid.Column>
+    </Grid.Column>
+  </Grid.Column>
+</Grid>
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### Grid
+<GridProps />
+
+### Grid.Column
+<GridColumnProps />

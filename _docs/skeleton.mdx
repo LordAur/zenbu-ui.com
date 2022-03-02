@@ -1,0 +1,70 @@
+---
+title: Skeleton
+description: Provide a placeholder while you wait for content to load, or to visualise content that doesn't exist yet.
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage",
+  child: [{
+    name: "Coloring",
+    link: "#coloring"
+  }, {
+    name: "Circle",
+    link: "#circle"
+  }]
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "Skeleton",
+    link: "#skeleton"
+  }]
+}]
+---
+
+<PreviewSkeleton />
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/skeleton" />
+
+## Usage
+
+```jsx
+import { Skeleton } from '@zenbu-ui/skeleton'
+
+const App = () => {
+  return(
+    <>
+      <Skeleton width="20" mr="2" />
+      <Skeleton width="44" mr="2" />
+      <Skeleton width="72" />
+    </>
+  )
+}
+
+export default App
+```
+
+### Coloring
+<PreviewSkeletonColoring />
+
+```jsx
+<Skeleton width="72" color="blue" colorContrast="200" />
+```
+
+### Circle
+<PreviewSkeletonCircle />
+
+```jsx
+<Skeleton width="32" circle />
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### Skeleton
+<SkeletonProps />

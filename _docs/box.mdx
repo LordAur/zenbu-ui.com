@@ -1,0 +1,128 @@
+---
+title: Box
+description: An element to wrap your component by default renders a div element.
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage",
+  child: [{
+    name: "Responsive",
+    link: "#responsive"
+  }, {
+    name: "Image",
+    link: "#image"
+  }, {
+    name: "Background Image",
+    link: "#background-image"
+  }, {
+    name: "Gradient Color",
+    link: "#gradient-color"
+  }]
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "Box",
+    link: "#box"
+  }, {
+    name: "Box.Image",
+    link: "#box.image"
+  }]
+}]
+---
+
+<PreviewBox />
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/box" />
+
+## Usage
+```jsx
+import { Box } from '@zenbu-ui/box'
+
+const App = () => {
+  return(
+    <Box
+    color="blue" colorContrast="600"
+    darkColor="blue" colorContrast="800">
+      <YourComponent />
+    </Box>
+  )
+}
+
+export default App
+```
+
+### Responsive
+All of the Zenbu UI components are supported responsive you can read the [responsive documentation](/docs/responsive) to understand better. Here is an example using responsive on the box component:
+
+```jsx
+<Box
+width="full"
+lg={{
+  width: "32"
+}}>
+  <YourComponent />
+</Box>
+```
+
+### Image
+You can put multiple images on the box component. But if you want to add content inside the box component, you must wrap it with **Box.Content** component.
+
+If you don't use **Box.Content** when you use **Box.Image**, the content will be placed behind the image.
+
+<PreviewBoxImage />
+
+```jsx
+<Box
+color="slate" colorContrast="500"
+image={(
+  <Box.Image width="24" src="https://...." alt="..." bottom="0" left="0" />
+)}>
+  <Box.Component>
+    <YourComponent />
+  </Box.Component>
+</Box>
+```
+
+### Background Image
+The **overlay** property is optional, but if using the **overlay**, you must set the **px** and **py** to 0.
+
+<PreviewBoxBgImage />
+
+```jsx
+<Box
+color="slate" colorContrast="500"
+bgImage="https://..."
+overlay px="0" py="0">
+  <Box.Content px="5" py="5">
+    <YourComponent />
+  </Box.Component>
+</Box>
+```
+
+### Gradient Color
+<PreviewBoxGradient />
+
+```jsx
+<Box
+width="full" height="32"
+bgGradientPosition="right"
+bgGradientFromColor="indigo" bgGradientFromColorContrast="500"
+bgGradientMiddleColor="purple" bgGradientMiddleColorContrast="500"
+bgGradientEndColor="pink" bgGradientEndColorContrast="500"
+border={false} />
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### Box
+<BoxProps />
+
+### Box.Image
+<BoxImageProps />

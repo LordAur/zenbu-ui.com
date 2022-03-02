@@ -1,0 +1,68 @@
+---
+title: Tags
+description: An element to categorizing or markup.
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage",
+  child: [{
+    name: "Closable",
+    link: "#closable"
+  }]
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "Tags",
+    link: "#tags"
+  }]
+}]
+---
+
+<PreviewTags />
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/tags" />
+
+## Usage
+
+```jsx
+import { Tag } from '@zenbu-ui/tags'
+
+const App = () => {
+  return(
+    <Tag
+    color="blue" colorContrast="500"
+    textColor="white">
+      <Icon icon="mail-open" height="4" mr="1" />
+      Mail
+    </Tag>
+  )
+}
+
+export default App
+```
+
+### Closable
+
+<PreviewTagsClosable />
+
+```jsx
+<Tag
+color="blue" colorContrast="500"
+textColor="white"
+closable>
+  <Icon icon="mail-open-solid" height="4" mr="1" />
+  Mail
+</Tag>
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### Tags
+<TagsProps />

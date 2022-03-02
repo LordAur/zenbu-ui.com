@@ -1,0 +1,86 @@
+---
+title: Blockquote
+description: A basic blockquote element.
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage",
+  child: [{
+    name: "Caption",
+    link: "#caption"
+  }, {
+    name: "Without Quote",
+    link: "#without-quote"
+  }]
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "Blockquote",
+    link: "#blockquote"
+  }]
+}]
+---
+
+<PreviewBlockquote />
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/typography" />
+
+## Usage
+
+```jsx
+import { Blockquote } from '@zenbu-ui/blockquote'
+
+const App = () => {
+  return(
+    <Blockquote width="96" textAlign="center"
+    cite="https://...">
+      ...
+    </Blockquote>
+  )
+}
+
+export default App
+```
+
+### Caption
+<PreviewBlockquoteCaption />
+
+```jsx
+<Blockquote
+bgCaptionColor="fuchsia" bgCaptionColorContrast="500"
+width="96" textAlign="center"
+cite="https://..."
+caption={(
+  <p className="text-white text-sm">—<cite>Albert Einstein</cite></p>
+)}>
+  ...
+</Blockquote>
+```
+
+### Without Quote
+<PreviewBlockquoteFalse />
+
+```jsx
+<Blockquote
+quote={false}
+bgCaptionColor="fuchsia" bgCaptionColorContrast="500"
+width="96" textAlign="center"
+cite="https://..."
+caption={(
+  <p className="text-white text-sm">—<cite>Albert Einstein</cite></p>
+)}>
+  ...
+</Blockquote>
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### Blockquote
+<BlockquoteProps />

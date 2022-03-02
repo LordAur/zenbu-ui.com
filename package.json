@@ -4,13 +4,22 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:css": "npx tailwindcss@3.0.19 -o ./styles/globals.css -c ./tailwind.config.js --minify",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@mdx-js/loader": "^2.0.0",
+    "@mdx-js/react": "^2.0.0",
+    "@zenbu-ui/react": "0.2.28",
+    "framer-motion": "4.1.17",
+    "gray-matter": "^4.0.3",
     "next": "12.0.10",
+    "next-mdx-remote": "^3.0.8",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-refractor": "^2.1.5",
+    "refractor": "^4.4.0"
   },
   "devDependencies": {
     "@types/node": "17.0.16",

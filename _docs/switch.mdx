@@ -1,0 +1,61 @@
+---
+title: Switch
+description: A control that allows the user to toggle between checked and not checked.
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage"
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "Switch",
+    link: "#switch"
+  }]
+}]
+---
+
+<PreviewSwitch />
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/switch" />
+
+## Usage
+
+```jsx
+import { Switch } from '@zenbu-ui/switch'
+
+const App = () => {
+  return(
+    <Switch
+    color="blue" colorContrast="600"
+    darkColor="blue" darkColorContrast="500"
+    bgColor="slate" bgColorContrast="300"
+    darkBgColor="slate" darkBgColorContrast="700" />
+  )
+}
+
+export default App
+```
+
+### Label
+<PreviewSwitchLabel />
+
+```jsx
+<Switch
+label={(<Text span fontSize="sm">Hey, test the switch toggle</Text>)}
+color="blue" colorContrast="600"
+darkColor="blue" darkColorContrast="500"
+bgColor="slate" bgColorContrast="300"
+darkBgColor="slate" darkBgColorContrast="700" />
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### Switch
+<SwitchProps />

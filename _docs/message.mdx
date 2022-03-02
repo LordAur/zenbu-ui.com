@@ -1,0 +1,92 @@
+---
+title: Message
+description: A message to displays information.
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage",
+  child: [{
+    name: "Header & Description",
+    link: "#header-&-description"
+  }, {
+    name: "Closable",
+    link: "#closable"
+  }, {
+    name: "Fixed",
+    link: "#fixed"
+  }]
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "Message",
+    link: "#message"
+  }]
+}]
+---
+
+<PreviewMessage />
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/message" />
+
+## Usage
+
+```jsx
+import { Message } from '@zenbu-ui/message'
+
+const App = () => {
+  return(
+    <Message>
+      This is a message
+    </Message>
+  )
+}
+```
+
+### Header & Description
+<PreviewMessageHeader />
+
+```jsx
+<Message
+header={(
+  <YourComponent />
+)}
+description={(
+  <YourComponent />
+)}
+/>
+```
+
+### Closable
+<PreviewMessageClosable />
+
+```jsx
+<Message closable visible={false}
+color="indigo" colorContrast="600">
+  This is a message
+</Message>
+```
+
+### Fixed
+<PreviewMessageFixed />
+
+```jsx
+<Message visible={false}
+fixed position="bottom"
+width="screen"
+border={false} rounded="none"
+color="indigo" colorContrast="600">
+  <YourComponent />
+</Message>
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### Message
+<MessageProps />
