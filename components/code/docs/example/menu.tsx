@@ -49,6 +49,28 @@ export const PreviewMenu = () => {
   )
 }
 
+export const PreviewMenuColoring = () => {
+  return(
+    <Example flex={false} py={5}>
+      <Menu
+      color="blue" colorContrast="600"
+      itemTextColor="white"
+      logo={(
+        <a href="#">
+          <img src="/logo/white.svg" alt="Logo Kodepanda" width={50} />
+        </a>
+      )}>
+        <Menu.Item href="#">Services</Menu.Item>
+        <Menu.Item href="#">Portofolio</Menu.Item>
+        <Menu.Item href="#">About</Menu.Item>
+        <Menu.Item href="#">Blog</Menu.Item>
+        <Menu.Item href="#">Career</Menu.Item>
+        <Menu.Item href="#">Contact</Menu.Item>
+      </Menu>
+    </Example>
+  )
+}
+
 export const PreviewMenuIcon = () => {
   return(
     <Example flex={false} py={5}>

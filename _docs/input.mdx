@@ -1,0 +1,114 @@
+---
+title: Input
+description: A basic element for getting user input.
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage",
+  child: [{
+    name: "Clear Value",
+    link: "#clear-value"
+  }, {
+    name: "Label",
+    link: "#label"
+  }, {
+    name: "Password",
+    link: "#password"
+  }, {
+    name: "Icon",
+    link: "#icon"
+  }, {
+    name: "Icon Action",
+    link: "#icon-action"
+  }, {
+    name: "Error & Success",
+    link: "#error-&-success"
+  }]
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "Input",
+    link: "#input"
+  }]
+}]
+---
+
+<PreviewInput />
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/input" />
+
+## Usage
+
+```jsx
+import { Input } from '@zenbu-ui/input'
+
+const App = () => {
+  return(
+    <Input name="tester" placeholder="Write text here..." />
+  )
+}
+
+export default App
+```
+
+### Clear Value
+<PreviewInputClear />
+
+```jsx
+<Input clearValue />
+```
+
+### Label
+<PreviewInputLabel />
+
+```jsx
+<Input icon="user"
+label={(
+  <Text span color="gray" colorContrast="600" fontWeight="semibold"
+  fontSize="xs" textTransform="uppercase">
+  Firstname
+  </Text>
+)} />
+```
+
+### Password
+<PreviewInputPassword />
+
+```jsx
+<Input type="password" />
+```
+
+### Icon
+<PreviewInputIcon />
+
+```jsx
+<Input icon="mail" />
+<Input icon="mail" iconColor="blue" iconPosition="right" />
+```
+
+### Icon Action
+<PreviewInputIconAction />
+
+```jsx
+<Input icon="search" iconAction="microphone-solid" iconActionClick={() => callfunction()} />
+```
+
+### Error & Success
+<PreviewInputErrSucc />
+
+```jsx
+<Input error errorText="This is an error message" />
+<Input success successText="This is a success message" />
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### Input
+<InputProps />

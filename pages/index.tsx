@@ -76,7 +76,7 @@ const Home: NextPage = () => {
           px="0">
             <Menu.Content position="right">
               <Menu.Item href="/docs/introduction">Introduction</Menu.Item>
-              <Menu.Item href="/docs/components">Components</Menu.Item>
+              <Menu.Item href="/docs/accordion">Components</Menu.Item>
               <Menu.Item
               onClick={() => toggleDarkMode()}>
                 <Icon icon={darkMode ? "light-bulb" : "moon"}

@@ -48,7 +48,10 @@ import { PreviewLink, LinkProps } from '../../components/code/docs/example/link'
 import { PreviewBlockquote, PreviewBlockquoteCaption, PreviewBlockquoteFalse, BlockquoteProps } from '../../components/code/docs/example/blockquote'
 import { PreviewTabs, TabsProps, TabsItemProps } from '../../components/code/docs/example/tabs'
 import { PreviewTable, PreviewTableCheckbox, PreviewTableColoring, PreviewTableNumbering, PreviewTableOnClick, PreviewTableStriping, ColumnTable, TableProps } from '../../components/code/docs/example/table'
-import { PreviewMenu, PreviewMenuIcon, PreviewMenuDropdown, PreviewMenuDropdownMode, MenuProps, MenuItemProps, MenuDropdownProps } from '../../components/code/docs/example/menu'
+import { PreviewMenu, PreviewMenuIcon, PreviewMenuDropdown, PreviewMenuDropdownMode, PreviewMenuColoring, MenuProps, MenuItemProps, MenuDropdownProps } from '../../components/code/docs/example/menu'
+import { PreviewMenuFooter, PreviewMenuFooterSmall, PreviewMenuFooterColoring, MenuFooterProps } from '../../components/code/docs/example/footer'
+import { PreviewMenuSidebar, MenuSidebarProps } from '../../components/code/docs/example/menu-sidebar'
+import { PreviewInput, PreviewInputClear, PreviewInputIcon, PreviewInputIconAction, PreviewInputLabel, PreviewInputPassword, InputProps } from '../../components/code/docs/example/input'
 
 const DocsPage = (props: any) => {
   const components = {
@@ -88,7 +91,10 @@ const DocsPage = (props: any) => {
     PreviewBlockquote, PreviewBlockquoteCaption, PreviewBlockquoteFalse, BlockquoteProps,
     PreviewTabs, TabsProps, TabsItemProps,
     PreviewTable, PreviewTableCheckbox, PreviewTableColoring, PreviewTableNumbering, PreviewTableOnClick, PreviewTableStriping, ColumnTable, TableProps,
-    PreviewMenu, PreviewMenuIcon, PreviewMenuDropdown, PreviewMenuDropdownMode, MenuProps, MenuItemProps, MenuDropdownProps,
+    PreviewMenu, PreviewMenuIcon, PreviewMenuDropdown, PreviewMenuColoring, PreviewMenuDropdownMode, MenuProps, MenuItemProps, MenuDropdownProps,
+    PreviewMenuFooter, PreviewMenuFooterSmall, PreviewMenuFooterColoring, MenuFooterProps,
+    PreviewMenuSidebar, MenuSidebarProps,
+    PreviewInput, PreviewInputClear, PreviewInputIcon, PreviewInputIconAction, PreviewInputLabel, PreviewInputPassword, InputProps,
     ...Layout
   }
 

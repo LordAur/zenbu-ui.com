@@ -51,6 +51,8 @@ export const MenuDocs = (props: MenuDocs) => {
         <Menu.Item active={props.slug === "list"} onClick={() => router.push("/docs/list")}>List</Menu.Item>
         <Menu.Item active={props.slug === "loader"} onClick={() => router.push("/docs/loader")}>Loader</Menu.Item>
         <Menu.Item active={props.slug === "menu"} onClick={() => router.push("/docs/menu")}>Menu</Menu.Item>
+        <Menu.Item active={props.slug === "menu-footer"} onClick={() => router.push("/docs/menu-footer")}>Menu Footer</Menu.Item>
+        <Menu.Item active={props.slug === "menu-sidebar"} onClick={() => router.push("/docs/menu-sidebar")}>Menu Sidebar</Menu.Item>
         <Menu.Item active={props.slug === "message"} onClick={() => router.push("/docs/message")}>Message</Menu.Item>
         <Menu.Item active={props.slug === "notification"} onClick={() => router.push("/docs/notification")}>Notification</Menu.Item>
         <Menu.Item active={props.slug === "pagination"} onClick={() => router.push("/docs/pagination")}>Pagination</Menu.Item>

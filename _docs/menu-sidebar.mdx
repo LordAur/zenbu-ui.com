@@ -1,0 +1,59 @@
+---
+title: Menu Sidebar
+description: Displaying an item to navigation actions at the left or right position.
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage"
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "MenuSidebar",
+    link: "#menusidebar"
+  }]
+}]
+---
+
+<PreviewMenuSidebar />
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/menu" />
+
+## Usage
+
+```jsx
+import { Menu, MenuSidebar } from '@zenbu-ui/menu'
+
+const App = () => {
+  return(
+    <MenuSidebar
+    height="screen" fixed
+    color="blue" colorContrast="600"
+    itemTextColor="white" itemTextColorHover="white"
+    itemBgColorHover="blue" itemBgColorHoverContrast="700"
+    logo={(
+      <a href="https://...">
+        <img src="https://..." alt="..." width={50} />
+      </a>
+    )}>
+      <Menu.Item href="#">Home</Menu.Item>
+      <Menu.Item href="#">Features</Menu.Item>
+      <Menu.Item href="#">Pricing</Menu.Item>
+      <Menu.Item href="#">About</Menu.Item>
+    </MenuSidebar>
+  )
+}
+
+export default App
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### Menu Sidebar
+<MenuSidebarProps />
