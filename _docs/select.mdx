@@ -1,0 +1,70 @@
+---
+title: Select
+description: A basic element for input select option.
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage",
+  child: [{
+    name: "Search",
+    link: "#search"
+  }]
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "Select",
+    link: "#select"
+  }]
+}]
+---
+
+<PreviewSelect />
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/input" />
+
+## Usage
+
+```jsx
+import { Input } from '@zenbu-ui/input'
+
+const App = () => {
+  const data = [{
+    key: "apple",
+    value: "apple",
+    text: "Apple"
+  }, {
+    key: "orange",
+    value: "orange",
+    text: "Orange"
+  }, {
+    key: "mango",
+    value: "mango",
+    text: "Mango"
+  }]
+
+  return(
+    <Input.Select name="tester" data={data} placeholder="Choose fruit" />
+  )
+}
+
+export default App
+```
+
+### Search
+<PreviewSelectSearch />
+
+```jsx
+<Input.Select search data={data} />
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### Select
+<SelectProps />

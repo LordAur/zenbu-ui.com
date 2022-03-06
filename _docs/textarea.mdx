@@ -1,0 +1,45 @@
+---
+title: Textarea
+description: A basic element for input textarea.
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage"
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "Textarea",
+    link: "#textarea"
+  }]
+}]
+---
+
+<PreviewTextarea />
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/input" />
+
+## Usage
+
+```jsx
+import { Input } from '@zenbu-ui/input'
+
+const App = () => {
+  return(
+    <Input.Textarea name="tester" placeholder="Write something here..." />
+  )
+}
+
+export default App
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### Textarea
+<TextareaProps />

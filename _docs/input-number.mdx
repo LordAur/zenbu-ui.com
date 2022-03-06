@@ -1,0 +1,89 @@
+---
+title: Input Number
+description: A basic element for number input.
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage",
+  child: [{
+    name: "Separator",
+    link: "#separator"
+  }, {
+    name: "Currency",
+    link: "#currency"
+  }, {
+    name: "Keyboard",
+    link: "#keyboard"
+  }]
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "Number",
+    link: "#number"
+  }]
+}]
+---
+
+<PreviewInputNumber />
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/input" />
+
+## Usage
+
+```jsx
+import { Input } from '@zenbu-ui/input'
+
+const App = () => {
+  return(
+    <Input.Number name="tester" placeholder="Place a number here" />
+  )
+}
+
+export default App
+```
+
+### Separator
+<PreviewInputNumberSeparator />
+
+```jsx
+<Input.Number
+separator="dot"
+name="tester" placeholder="Place a number here" />
+```
+
+### Currency
+<PreviewInputNumberCurrency />
+
+```jsx
+<Input.Number
+separator="dot"
+currency currencyText={(
+  <Text span fontSize="sm">
+    Rp
+  </Text>
+)}
+name="tester" placeholder="Place a number here" />
+```
+
+### Keyboard
+If you used **keyboard** property, so users can increase  or decrease the value with arrow keys.
+
+<PreviewInputNumberKeyboard />
+
+```jsx
+<Input.Number keyboard min={0}
+separator="dot"
+name="tester" placeholder="Place a number here" />
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### Number
+<InputNumberProps />

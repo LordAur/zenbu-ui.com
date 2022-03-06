@@ -32,14 +32,14 @@ const cols = [
 export const PreviewMenuFooter = () => {
   return(
     <Example flex={false} py={5}>
-      <MenuFooter
+      <MenuFooter border={false}
       itemTextColor="gray" itemTextColorContrast="600"
       itemTextColorHover="blue" itemTextColorHoverContrast="600"
       px="16">
         <MenuFooter.Content width="72">
           <div className="flex flex-col space-y-3">
             <Image alt="logo kodepanda" src="/logo/black.svg" width="10" />
-            <Text fontSize="sm" color="gray" colorContrast="600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</Text>
+            <Text fontSize="sm" color="gray" colorContrast="600" darkColor="gray" darkColorContrast="600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</Text>
           </div>
         </MenuFooter.Content>
         <Menu.Items title={(
@@ -59,7 +59,7 @@ export const PreviewMenuFooter = () => {
 export const PreviewMenuFooterColoring = () => {
   return(
     <Example flex={false} py={5}>
-      <MenuFooter
+      <MenuFooter border={false}
       color="gray" colorContrast="700"
       itemTextColor="white"
       itemTextColorHover="blue" itemTextColorHoverContrast="600"
@@ -87,7 +87,7 @@ export const PreviewMenuFooterColoring = () => {
 export const PreviewMenuFooterSmall = () => {
   return(
     <Example flex={false} py={5}>
-      <MenuFooter
+      <MenuFooter border={false}
       itemTextColor="gray" itemTextColorContrast="600"
       itemTextColorHover="blue" itemTextColorHoverContrast="600"
       footer={(
@@ -99,7 +99,7 @@ export const PreviewMenuFooterSmall = () => {
         <MenuFooter.Content width="72">
           <div className="flex flex-col space-y-3">
             <Image alt="logo kodepanda" src="/logo/black.svg" width="10" />
-            <Text fontSize="sm" color="gray" colorContrast="600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</Text>
+            <Text fontSize="sm" color="gray" colorContrast="600" darkColor="gray" darkColorContrast="600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</Text>
           </div>
         </MenuFooter.Content>
         <Menu.Items title={(

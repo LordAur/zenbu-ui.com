@@ -1,0 +1,70 @@
+---
+title: Input Date
+description: A basic element for date input.
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage",
+  child: [{
+    name: "Format",
+    link: "#format"
+  }, {
+    name: "Time",
+    link: "#time"
+  }]
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "Date",
+    link: "#date"
+  }]
+}]
+---
+
+<PreviewInputDate />
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/input" />
+
+## Usage
+
+```jsx
+import { Input } from '@zenbu-ui/input'
+
+const App = () => {
+  return(
+    <Input.Date name="tester" onChange={(unix, date) => {...}} />
+  )
+}
+
+export default App
+```
+
+### Format
+<PreviewInputDateFormat />
+
+```jsx
+<Input.Date
+format="DD MMM YYYY"
+name="tester" onChange={(unix, date) => {...}} />
+```
+
+### Time
+<PreviewInputDateTime />
+
+```jsx
+<Input.Date
+time format="DD/MM/YYYY HH:mm"
+name="tester" onChange={(unix, date) => {...}} />
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### Date
+<InputDateProps />

@@ -1,0 +1,60 @@
+---
+title: Checkbox
+description: A basic element for input checkbox.
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage",
+  child: [{
+    name: "Coloring",
+    link: "#coloring"
+  }]
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "Checkbox",
+    link: "#checkbox"
+  }]
+}]
+---
+
+<PreviewCheckbox />
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/input" />
+
+## Usage
+
+```jsx
+import { Input } from '@zenbu-ui/input'
+
+const App = () => {
+  return(
+    <Input.Checkbox name="tester" l
+    label={(<Text span fontSize="sm">Default checkbox</Text>)} />
+  )
+}
+
+export default App
+```
+
+### Coloring
+<PreviewCheckboxColoring />
+
+```jsx
+<Input.Checkbox
+color="red" colorContrast="600"
+name="tester"
+label={(<Text span fontSize="sm">Default checkbox</Text>)} />
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### Checkbox
+<CheckboxProps />

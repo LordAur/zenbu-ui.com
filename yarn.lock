@@ -839,10 +839,10 @@
     "@zenbu-ui/core" "0.1.9"
     "@zenbu-ui/provider" "0.1.6"
 
-"@zenbu-ui/input@0.2.8":
-  version "0.2.8"
-  resolved "https://registry.yarnpkg.com/@zenbu-ui/input/-/input-0.2.8.tgz#8be8eb9ebd1235d58d1e96d61999009fb6eadb56"
-  integrity sha512-8/Xp2sCtIbs+nYeKPyZNLU8eBCoypFi1nAYsr4hrWab1Z+/UYb3D7Z0Ol+7tZCMFm7kedlyvXc7TapNspY2Hnw==
+"@zenbu-ui/input@0.2.9":
+  version "0.2.9"
+  resolved "https://registry.yarnpkg.com/@zenbu-ui/input/-/input-0.2.9.tgz#c05bae8c620470cb8563041d016a427419d742ee"
+  integrity sha512-73jTJ69+klaqRDokPy6VwsDltKF+0Me0/XRkvD+5Su489bwOyWdZC+4VHHqENoyRUDftss+Q5lUw5WecARfm2w==
   dependencies:
     "@emotion/css" "^11.7.1"
     "@reach/auto-id" "^0.16.0"
@@ -953,10 +953,10 @@
     "@zenbu-ui/icon" "0.2.5"
     "@zenbu-ui/provider" "0.1.6"
 
-"@zenbu-ui/react@0.2.28":
-  version "0.2.28"
-  resolved "https://registry.yarnpkg.com/@zenbu-ui/react/-/react-0.2.28.tgz#6d707bac7b1cd95927fe33dfa9012aa91a70503f"
-  integrity sha512-IJsA8v15t02d/wjbDWN6gOBZHtu/ww+x7QZvgjvxckyugMULr27I7d5nK3UnaHmEPwKL4dJpY/d6kp+gNyn4Ng==
+"@zenbu-ui/react@0.2.30":
+  version "0.2.30"
+  resolved "https://registry.yarnpkg.com/@zenbu-ui/react/-/react-0.2.30.tgz#5d4ce5b8b6450aad6778d53c27d6d95bd101c07e"
+  integrity sha512-QXKmVSUuMtLeJyeymeWvIBNYekgXNtWUFpdViIsbhiBXwKYrpJoVGeScGdKD+U2j1RqfSbvtHJh2oYb6UVlM3g==
   dependencies:
     "@zenbu-ui/accordion" "0.2.5"
     "@zenbu-ui/alert-dialog" "0.1.10"
@@ -973,7 +973,7 @@
     "@zenbu-ui/grid" "0.2.5"
     "@zenbu-ui/icon" "0.2.5"
     "@zenbu-ui/image" "0.2.5"
-    "@zenbu-ui/input" "0.2.8"
+    "@zenbu-ui/input" "0.2.9"
     "@zenbu-ui/list" "0.2.14"
     "@zenbu-ui/loader" "0.2.5"
     "@zenbu-ui/menu" "0.2.10"
@@ -988,7 +988,7 @@
     "@zenbu-ui/skeleton" "0.2.5"
     "@zenbu-ui/statistic" "0.2.5"
     "@zenbu-ui/switch" "0.2.6"
-    "@zenbu-ui/table" "0.2.9"
+    "@zenbu-ui/table" "0.2.10"
     "@zenbu-ui/tabs" "0.2.5"
     "@zenbu-ui/tags" "0.2.5"
     "@zenbu-ui/tooltip" "0.2.5"
@@ -1031,14 +1031,14 @@
     "@zenbu-ui/core" "0.1.9"
     "@zenbu-ui/provider" "0.1.6"
 
-"@zenbu-ui/table@0.2.9":
-  version "0.2.9"
-  resolved "https://registry.yarnpkg.com/@zenbu-ui/table/-/table-0.2.9.tgz#30b6b1e873c60085e217abf986c332cf529ca2f0"
-  integrity sha512-MTfgiE3Kclm1WDExw11miTP8dlS7gwBCcpN83N/7tE/VF1gYLj8bULi11dkSpnkAAOliFIuhl2AwXHlW9AbfxA==
+"@zenbu-ui/table@0.2.10":
+  version "0.2.10"
+  resolved "https://registry.yarnpkg.com/@zenbu-ui/table/-/table-0.2.10.tgz#53b31af48e2e5e10ffc2202361a5f7e11f8bc444"
+  integrity sha512-Um/ULRex7u+6de7HcPeu0y1MMjsTVGI13JdeyslzWmw8ohcdvyNL0fYXphtuTQOzNBnAbFRpUHnpOAYZ1OImmw==
   dependencies:
     "@reach/auto-id" "^0.16.0"
     "@zenbu-ui/core" "0.1.9"
-    "@zenbu-ui/input" "0.2.8"
+    "@zenbu-ui/input" "0.2.9"
     "@zenbu-ui/provider" "0.1.6"
 
 "@zenbu-ui/tabs@0.2.5":

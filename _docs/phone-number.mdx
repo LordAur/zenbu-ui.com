@@ -1,0 +1,58 @@
+---
+title: Phone Number
+description: An input field for phone number.
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage",
+  child: [{
+    name: "Change Country Code",
+    link: "#change-country-code"
+  }]
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "Phone",
+    link: "#phone"
+  }]
+}]
+---
+
+<PreviewPhone />
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/input" />
+
+## Usage
+
+```jsx
+import { Input } from '@zenbu-ui/input'
+
+const App = () => {
+  return(
+    <Input.Phone name="tester" placeholder="Phone number" />
+  )
+}
+
+export default App
+```
+
+### Change Country Code
+By default, the country code is ID (Indonesia), but you can change the default country code with use defaultCountry property.
+
+<PreviewPhoneCountry />
+
+```jsx
+<Input.Phone defaultCountry="US" name="tester" placeholder="Phone number" />
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### Phone
+<PhoneProps />

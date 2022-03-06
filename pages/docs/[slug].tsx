@@ -52,6 +52,16 @@ import { PreviewMenu, PreviewMenuIcon, PreviewMenuDropdown, PreviewMenuDropdownM
 import { PreviewMenuFooter, PreviewMenuFooterSmall, PreviewMenuFooterColoring, MenuFooterProps } from '../../components/code/docs/example/footer'
 import { PreviewMenuSidebar, MenuSidebarProps } from '../../components/code/docs/example/menu-sidebar'
 import { PreviewInput, PreviewInputClear, PreviewInputIcon, PreviewInputIconAction, PreviewInputLabel, PreviewInputPassword, InputProps } from '../../components/code/docs/example/input'
+import { PreviewCheckbox, PreviewCheckboxColoring, CheckboxProps } from '../../components/code/docs/example/checkbox'
+import { PreviewRadio, PreviewRadioColoring, RadioProps } from '../../components/code/docs/example/radio'
+import { PreviewSelect, PreviewSelectSearch, SelectProps } from '../../components/code/docs/example/select'
+import { PreviewTextarea, TextareaProps } from '../../components/code/docs/example/textarea'
+import { PreviewPin, PinProps } from '../../components/code/docs/example/pin'
+import { PreviewInputNumber, PreviewInputNumberCurrency, PreviewInputNumberKeyboard, PreviewInputNumberSeparator, InputNumberProps } from '../../components/code/docs/example/input-number'
+import { PreviewInputDate, PreviewInputDateFormat, PreviewInputDateTime, InputDateProps } from '../../components/code/docs/example/input-date'
+import { PreviewInputFile, PreviewInputFileError, PreviewInputFileMultiple, PreviewInputFileText, InputFileProps } from '../../components/code/docs/example/input-file'
+import { PreviewCreditCard, CreditCardProps } from '../../components/code/docs/example/credit-card'
+import { PreviewPhone, PreviewPhoneCountry, PhoneProps } from '../../components/code/docs/example/phone'
 
 const DocsPage = (props: any) => {
   const components = {
@@ -95,6 +105,16 @@ const DocsPage = (props: any) => {
     PreviewMenuFooter, PreviewMenuFooterSmall, PreviewMenuFooterColoring, MenuFooterProps,
     PreviewMenuSidebar, MenuSidebarProps,
     PreviewInput, PreviewInputClear, PreviewInputIcon, PreviewInputIconAction, PreviewInputLabel, PreviewInputPassword, InputProps,
+    PreviewCheckbox, PreviewCheckboxColoring, CheckboxProps,
+    PreviewRadio, PreviewRadioColoring, RadioProps,
+    PreviewSelect, PreviewSelectSearch, SelectProps,
+    PreviewTextarea, TextareaProps,
+    PreviewPin, PinProps,
+    PreviewInputNumber, PreviewInputNumberCurrency, PreviewInputNumberKeyboard, PreviewInputNumberSeparator, InputNumberProps,
+    PreviewInputDate, PreviewInputDateFormat, PreviewInputDateTime, InputDateProps,
+    PreviewInputFile, PreviewInputFileError, PreviewInputFileMultiple, PreviewInputFileText, InputFileProps,
+    PreviewCreditCard, CreditCardProps,
+    PreviewPhone, PreviewPhoneCountry, PhoneProps,
     ...Layout
   }
 

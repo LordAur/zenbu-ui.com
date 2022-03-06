@@ -1,0 +1,79 @@
+---
+title: Radio
+description: A basic element for input radio.
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage",
+  child: [{
+    name: "Coloring",
+    link: "#coloring"
+  }]
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "Radio",
+    link: "#radio"
+  }]
+}]
+---
+
+<PreviewRadio />
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/input" />
+
+## Usage
+
+```jsx
+import { Input } from '@zenbu-ui/input'
+
+const App = () => {
+  return(
+    <>
+      <Input.Radio checked
+      value={1} name="tester"
+      label={(
+        <Text span fontSize="sm">
+          Default checkbox 1
+        </Text>
+      )} />
+
+      <Input.Radio
+      value={2} name="tester"
+      label={(
+        <Text span fontSize="sm">
+          Default checkbox 2
+        </Text>
+      )} />
+    </>
+  )
+}
+
+export default App
+```
+
+### Coloring
+<PreviewRadioColoring />
+
+```jsx
+<Input.Radio value={1} checked
+color="red" colorContrast="600"
+name="tester"
+label={(
+  <Text span fontSize="sm">
+    Default checkbox 1
+  </Text>
+)} />
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### Radio
+<RadioProps />

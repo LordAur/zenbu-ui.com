@@ -1,0 +1,45 @@
+---
+title: Pin
+description: An element to input pin number.
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage"
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "Pin",
+    link: "#pin"
+  }]
+}]
+---
+
+<PreviewPin />
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/input" />
+
+## Usage
+
+```jsx
+import { Input } from '@zenbu-ui/input'
+
+const App = () => {
+  return(
+    <Input.Pin name="tester" onComplete={(val) => {...}} />
+  )
+}
+
+export default App
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### Pin
+<PinProps />

@@ -1,0 +1,81 @@
+---
+title: Input File
+description: A basic element for file input.
+navigation: [{
+  name: "Installation",
+  link: "#installation"
+}, {
+  name: "Usage",
+  link: "#usage",
+  child: [{
+    name: "Text State",
+    link: "#text-state"
+  }, {
+    name: "Multiple",
+    link: "#multiple"
+  }, {
+    name: "Error",
+    link: "#error"
+  }]
+}, {
+  name: "API Reference",
+  link: "#api-reference",
+  child: [{
+    name: "File",
+    link: "#file"
+  }]
+}]
+---
+
+<PreviewInputFile />
+
+## Installation
+Install the component from your command line.
+
+<NpmInstall packageName="@zenbu-ui/input" />
+
+## Usage
+
+```jsx
+import { Input } from '@zenbu-ui/input'
+
+const App = () => {
+  return(
+    <Input.File name="tester" accept="*" />
+  )
+}
+
+export default App
+```
+
+### Text State
+<PreviewInputFileText />
+
+```jsx
+<Input.File name="tester" accept="*"
+text="Pilih Data"
+textState="Tidak ada data yang dipilih" />
+```
+
+### Multiple
+<PreviewInputFileMultiple />
+
+```jsx
+<Input.File name="tester" accept="*" multiple />
+```
+
+### Error
+<PreviewInputFileError />
+
+```jsx
+<Input.File
+name="tester" accept="*"
+maxSize={1000}
+errorMaxSize={(maxSize: string) => `File tidak boleh lebih besar dari ${maxSize}`} />
+```
+
+## API Reference
+Below shows only the specific properties present in this component. Design customization such as coloring, rounded, and others can be seen in the [styling section](/docs/styling).
+
+### File
+<InputFileProps />
