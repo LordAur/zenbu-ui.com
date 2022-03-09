@@ -30,6 +30,11 @@ export const MenuDocs = (props: MenuDocs) => {
         <Menu.Item active={props.slug === "releases"} onClick={() => router.push("/docs/releases")}>Releases</Menu.Item>
       </Menu.Items>
 
+      <Menu.Items title={(<Text fontSize="xs" color="black" ml="5" mb="2">Styling</Text>)}>
+        <Menu.Item active={props.slug === "color-palette"} onClick={() => router.push("/docs/color-palette")}>Color Palette</Menu.Item>
+        <Menu.Item active={props.slug === "size"} onClick={() => router.push("/docs/size")}>Size</Menu.Item>
+      </Menu.Items>
+
       <Menu.Items title={(<Text fontSize="xs" color="black" ml="5" mb="2">Components</Text>)}>
         <Menu.Item active={props.slug === "accordion"} onClick={() => router.push("/docs/accordion")}>Accordion</Menu.Item>
         <Menu.Item active={props.slug === "alert-dialog"} onClick={() => router.push("/docs/alert-dialog")}>Alert Dialog</Menu.Item>

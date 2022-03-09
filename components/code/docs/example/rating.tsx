@@ -72,12 +72,12 @@ export const RatingProps = () => {
     prop: (<Tag componentName="prop">nonActiveColorContent</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: (<Tag componentName="type">gray</Tag>),
-    description: <Text componentName="standard">Change the non active rating color, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the non active rating color, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">nonActiveColorContentContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: (<Tag componentName="type">100</Tag>),
-    description: <Text componentName="standard">Change the non active rating color contrast for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the non active rating color contrast for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">onChange(star: number)</Tag>),
     type: (<Tag componentName="type">function</Tag>),

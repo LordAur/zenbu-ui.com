@@ -109,12 +109,12 @@ export const DialogProps = () => {
     prop: (<Tag componentName="prop">titleColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change background color title for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change background color title for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">titleColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change background color contrast title for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change background color contrast title for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">footer</Tag>),
     type: (<Tag componentName="type">HTMLElement</Tag>),
@@ -124,32 +124,32 @@ export const DialogProps = () => {
     prop: (<Tag componentName="prop">footerColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change background color footer for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change background color footer for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">footerColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change background color contrast footer for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change background color contrast footer for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkTitleColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change background dark mode color title for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change background dark mode color title for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkTitleColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change background dark mode color contrast title for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change background dark mode color contrast title for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkFooterColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change background dark mode color footer for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change background dark mode color footer for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkFooterColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change background dark mode color contrast footer for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change background dark mode color contrast footer for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">okText</Tag>),
     type: (<Tag componentName="type">string</Tag>),

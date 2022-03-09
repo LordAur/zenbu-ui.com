@@ -62,6 +62,8 @@ import { PreviewInputDate, PreviewInputDateFormat, PreviewInputDateTime, InputDa
 import { PreviewInputFile, PreviewInputFileError, PreviewInputFileMultiple, PreviewInputFileText, InputFileProps } from '../../components/code/docs/example/input-file'
 import { PreviewCreditCard, CreditCardProps } from '../../components/code/docs/example/credit-card'
 import { PreviewPhone, PreviewPhoneCountry, PhoneProps } from '../../components/code/docs/example/phone'
+import { SizeWidth, SizeHeight, SizeResponsive, SizeExampleWidth, SizeExampleHeight, SizeExampleResponsive } from '../../components/code/docs/example/size'
+import { ColorPalette, ColorPaletteExample, ColorPaletteDarkExample, TextColorExample, BorderColorExample, ColorList } from '../../components/code/docs/example/color-palette'
 
 const DocsPage = (props: any) => {
   const components = {
@@ -115,6 +117,8 @@ const DocsPage = (props: any) => {
     PreviewInputFile, PreviewInputFileError, PreviewInputFileMultiple, PreviewInputFileText, InputFileProps,
     PreviewCreditCard, CreditCardProps,
     PreviewPhone, PreviewPhoneCountry, PhoneProps,
+    SizeWidth, SizeHeight, SizeResponsive, SizeExampleWidth, SizeExampleHeight, SizeExampleResponsive,
+    ColorPalette, ColorPaletteExample, ColorPaletteDarkExample, TextColorExample, BorderColorExample, ColorList,
     ...Layout
   }
 

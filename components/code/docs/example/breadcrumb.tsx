@@ -50,27 +50,27 @@ export const BreadcrumbProps = () => {
     prop: (<Tag componentName="prop">dividerHeight</Tag>),
     type: (<Tag componentName="type">size</Tag>),
     default: (<Tag componentName="type">3</Tag>),
-    description: <Text componentName="standard">Read the <Link componentName="standard" href="/docs/sizing">size documentation</Link>.</Text>
+    description: <Text componentName="standard">Read the <Link componentName="standard" href="/docs/size">size documentation</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">activeColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: (<Tag componentName="type">gray</Tag>),
-    description: <Text componentName="standard">Change the color active breadcrumb item for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the color active breadcrumb item for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">activeColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: (<Tag componentName="type">500</Tag>),
-    description: <Text componentName="standard">Change the color contrast active breadcrumb item for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the color contrast active breadcrumb item for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkActiveColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: (<Tag componentName="type">gray</Tag>),
-    description: <Text componentName="standard">Change the dark mode color active breadcrumb item for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the dark mode color active breadcrumb item for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkActiveColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: (<Tag componentName="type">500</Tag>),
-    description: <Text componentName="standard">Change the dark mode color contrast active breadcrumb item for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the dark mode color contrast active breadcrumb item for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }]
 
   return(

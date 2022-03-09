@@ -129,7 +129,7 @@ export const ButtonProps = () => {
     prop: (<Tag componentName="prop">iconHeight</Tag>),
     type: (<Tag componentName="type">size</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Read the <Link componentName="standard" href="/docs/sizing">size documentation</Link>.</Text>
+    description: <Text componentName="standard">Read the <Link componentName="standard" href="/docs/size">size</Link> documentation.</Text>
   }, {
     prop: (<Tag componentName="prop">iconPosition</Tag>),
     type: (<Tag componentName="type">string</Tag>),
@@ -139,22 +139,22 @@ export const ButtonProps = () => {
     prop: (<Tag componentName="prop">iconColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: (<Tag componentName="type">gray</Tag>),
-    description: <Text componentName="standard">Change the icon color for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the icon color for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">iconColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: (<Tag componentName="type">500</Tag>),
-    description: <Text componentName="standard">Change the icon color contrast for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the icon color contrast for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkIconColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: (<Tag componentName="type">gray</Tag>),
-    description: <Text componentName="standard">Change the icon dark mode color for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the icon dark mode color for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkIconColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: (<Tag componentName="type">500</Tag>),
-    description: <Text componentName="standard">Change the icon dark mode color contrast for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the icon dark mode color contrast for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">href</Tag>),
     type: (<Tag componentName="type">string</Tag>),
@@ -210,7 +210,7 @@ export const ButtonGroupItemProps = () => {
     prop: (<Tag componentName="prop">iconHeight</Tag>),
     type: (<Tag componentName="type">size</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Read the <Link componentName="standard" href="/docs/sizing">size documentation</Link>.</Text>
+    description: <Text componentName="standard">Read the <Link componentName="standard" href="/docs/size">size</Link> documentation.</Text>
   }, {
     prop: (<Tag componentName="prop">iconPosition</Tag>),
     type: (<Tag componentName="type">string</Tag>),
@@ -220,22 +220,22 @@ export const ButtonGroupItemProps = () => {
     prop: (<Tag componentName="prop">iconColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: (<Tag componentName="type">gray</Tag>),
-    description: <Text componentName="standard">Change the icon color for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the icon color for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">iconColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: (<Tag componentName="type">500</Tag>),
-    description: <Text componentName="standard">Change the icon color contrast for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the icon color contrast for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkIconColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: (<Tag componentName="type">gray</Tag>),
-    description: <Text componentName="standard">Change the icon dark mode color for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the icon dark mode color for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkIconColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: (<Tag componentName="type">500</Tag>),
-    description: <Text componentName="standard">Change the icon dark mode color contrast for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the icon dark mode color contrast for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">href</Tag>),
     type: (<Tag componentName="type">string</Tag>),
@@ -283,107 +283,107 @@ export const ButtonDropdownProps = () => {
     prop: (<Tag componentName="prop">iconHeight</Tag>),
     type: (<Tag componentName="type">size</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Read the <Link componentName="standard" href="/docs/sizing">size documentation</Link>.</Text>
+    description: <Text componentName="standard">Read the <Link componentName="standard" href="/docs/size">size</Link> documentation.</Text>
   }, {
     prop: (<Tag componentName="prop">iconColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: (<Tag componentName="type">gray</Tag>),
-    description: <Text componentName="standard">Change the icon color for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the icon color for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">iconColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: (<Tag componentName="type">500</Tag>),
-    description: <Text componentName="standard">Change the icon color contrast for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the icon color contrast for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkIconColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: (<Tag componentName="type">gray</Tag>),
-    description: <Text componentName="standard">Change the icon dark mode color for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the icon dark mode color for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkIconColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: (<Tag componentName="type">500</Tag>),
-    description: <Text componentName="standard">Change the icon dark mode color contrast for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the icon dark mode color contrast for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">dropdownBgColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: (<Tag componentName="type">gray</Tag>),
-    description: <Text componentName="standard">Change the dropdown background color for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the dropdown background color for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">dropdownBgColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: (<Tag componentName="type">500</Tag>),
-    description: <Text componentName="standard">Change the dropdown background color contrast for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the dropdown background color contrast for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkDropdownBgColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: (<Tag componentName="type">gray</Tag>),
-    description: <Text componentName="standard">Change the dropdown background dark mode color for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the dropdown background dark mode color for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkDropdownBgColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: (<Tag componentName="type">500</Tag>),
-    description: <Text componentName="standard">Change the dropdown background dark mode color contrast for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the dropdown background dark mode color contrast for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">dropdownBgHoverColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: (<Tag componentName="type">gray</Tag>),
-    description: <Text componentName="standard">Change the dropdown background color hover for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the dropdown background color hover for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">dropdownBgHoverColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: (<Tag componentName="type">500</Tag>),
-    description: <Text componentName="standard">Change the dropdown background color hover contrast for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the dropdown background color hover contrast for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkDropdownBgHoverColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: (<Tag componentName="type">gray</Tag>),
-    description: <Text componentName="standard">Change the dropdown background dark mode color hover for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the dropdown background dark mode color hover for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkDropdownBgHoverColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: (<Tag componentName="type">500</Tag>),
-    description: <Text componentName="standard">Change the dropdown background dark mode color hover contrast for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the dropdown background dark mode color hover contrast for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">dropdownTextColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: (<Tag componentName="type">gray</Tag>),
-    description: <Text componentName="standard">Change the dropdown text color for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the dropdown text color for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">dropdownTextColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: (<Tag componentName="type">500</Tag>),
-    description: <Text componentName="standard">Change the dropdown text color contrast for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the dropdown text color contrast for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkDropdownTextColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: (<Tag componentName="type">gray</Tag>),
-    description: <Text componentName="standard">Change the dropdown dark mode text color for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the dropdown dark mode text color for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkDropdownTextColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: (<Tag componentName="type">500</Tag>),
-    description: <Text componentName="standard">Change the dropdown dark mode text color contrast for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the dropdown dark mode text color contrast for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">dropdownTextHoverColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: (<Tag componentName="type">gray</Tag>),
-    description: <Text componentName="standard">Change the dropdown text color hover for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the dropdown text color hover for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">dropdownTextHoverColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: (<Tag componentName="type">500</Tag>),
-    description: <Text componentName="standard">Change the dropdown text color hover contrast for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the dropdown text color hover contrast for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkDropdownTextHoverColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: (<Tag componentName="type">gray</Tag>),
-    description: <Text componentName="standard">Change the dropdown dark mode text color hover for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the dropdown dark mode text color hover for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkDropdownTextHoverColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: (<Tag componentName="type">500</Tag>),
-    description: <Text componentName="standard">Change the dropdown dark mode text color hover contrast for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the dropdown dark mode text color hover contrast for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">dropdownFontSize</Tag>),
     type: (<Tag componentName="type">size</Tag>),
@@ -398,12 +398,12 @@ export const ButtonDropdownProps = () => {
     prop: (<Tag componentName="prop">dropdownBorderColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: (<Tag componentName="type">gray</Tag>),
-    description: <Text componentName="standard">Change the dropdown border color hover for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the dropdown border color hover for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">dropdownBorderColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: (<Tag componentName="type">200</Tag>),
-    description: <Text componentName="standard">Change the dropdown border color hover contrast for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the dropdown border color hover contrast for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">dropdownRounded</Tag>),
     type: (<Tag componentName="type">size</Tag>),
@@ -413,7 +413,7 @@ export const ButtonDropdownProps = () => {
     prop: (<Tag componentName="prop">dropdownIconHeight</Tag>),
     type: (<Tag componentName="type">size</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the dropdown menu icon height, please read the <Link componentName="standard" href="/docs/sizing">sizing</Link> documentation.</Text>
+    description: <Text componentName="standard">Change the dropdown menu icon height, please read the <Link componentName="standard" href="/docs/size">size</Link> documentation.</Text>
   }, {
     prop: (<Tag componentName="prop">dropdownShadow</Tag>),
     type: (<Tag componentName="type">size</Tag>),
@@ -423,12 +423,12 @@ export const ButtonDropdownProps = () => {
     prop: (<Tag componentName="prop">dropdownShadowColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: (<Tag componentName="type">gray</Tag>),
-    description: <Text componentName="standard">Change the dropdown shadow color hover for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the dropdown shadow color hover for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">dropdownShadowColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: (<Tag componentName="type">400</Tag>),
-    description: <Text componentName="standard">Change the dropdown shadow color hover contrast for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the dropdown shadow color hover contrast for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">dropdownShadowOpacity</Tag>),
     type: (<Tag componentName="type">opacity</Tag>),
@@ -456,7 +456,7 @@ export const ButtonDropdownItemProps = () => {
     prop: (<Tag componentName="prop">iconHeight</Tag>),
     type: (<Tag componentName="type">size</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Read the <Link componentName="standard" href="/docs/sizing">size documentation</Link>.</Text>
+    description: <Text componentName="standard">Read the <Link componentName="standard" href="/docs/size">size</Link> documentation.</Text>
   }, {
     prop: (<Tag componentName="prop">onClick</Tag>),
     type: (<Tag componentName="type">function</Tag>),

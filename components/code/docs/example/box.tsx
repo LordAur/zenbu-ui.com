@@ -5,7 +5,6 @@ import { Example } from '../../../example/example'
 import { Tag } from '@zenbu-ui/tags'
 import { Table } from '@zenbu-ui/table'
 import { Text, Link } from '@zenbu-ui/typography'
-import { ExampleResizable } from '../../../example/resizable'
 
 const cols = [
   {

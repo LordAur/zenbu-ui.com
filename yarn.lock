@@ -953,10 +953,10 @@
     "@zenbu-ui/icon" "0.2.5"
     "@zenbu-ui/provider" "0.1.6"
 
-"@zenbu-ui/react@0.2.30":
-  version "0.2.30"
-  resolved "https://registry.yarnpkg.com/@zenbu-ui/react/-/react-0.2.30.tgz#5d4ce5b8b6450aad6778d53c27d6d95bd101c07e"
-  integrity sha512-QXKmVSUuMtLeJyeymeWvIBNYekgXNtWUFpdViIsbhiBXwKYrpJoVGeScGdKD+U2j1RqfSbvtHJh2oYb6UVlM3g==
+"@zenbu-ui/react@0.2.31":
+  version "0.2.31"
+  resolved "https://registry.yarnpkg.com/@zenbu-ui/react/-/react-0.2.31.tgz#920f99868662158452d350d7d6a1004acd5e509b"
+  integrity sha512-kDgbvxd2vXEbH+4UaDQwOjbFJSJFf3Iem30lFtjoDKO5fip8kOCnBLnmi7vSljOKLxPHH3H2+IrHM4uYczAaMw==
   dependencies:
     "@zenbu-ui/accordion" "0.2.5"
     "@zenbu-ui/alert-dialog" "0.1.10"
@@ -988,7 +988,7 @@
     "@zenbu-ui/skeleton" "0.2.5"
     "@zenbu-ui/statistic" "0.2.5"
     "@zenbu-ui/switch" "0.2.6"
-    "@zenbu-ui/table" "0.2.10"
+    "@zenbu-ui/table" "0.2.11"
     "@zenbu-ui/tabs" "0.2.5"
     "@zenbu-ui/tags" "0.2.5"
     "@zenbu-ui/tooltip" "0.2.5"
@@ -1031,10 +1031,10 @@
     "@zenbu-ui/core" "0.1.9"
     "@zenbu-ui/provider" "0.1.6"
 
-"@zenbu-ui/table@0.2.10":
-  version "0.2.10"
-  resolved "https://registry.yarnpkg.com/@zenbu-ui/table/-/table-0.2.10.tgz#53b31af48e2e5e10ffc2202361a5f7e11f8bc444"
-  integrity sha512-Um/ULRex7u+6de7HcPeu0y1MMjsTVGI13JdeyslzWmw8ohcdvyNL0fYXphtuTQOzNBnAbFRpUHnpOAYZ1OImmw==
+"@zenbu-ui/table@0.2.11":
+  version "0.2.11"
+  resolved "https://registry.yarnpkg.com/@zenbu-ui/table/-/table-0.2.11.tgz#ee2906fb500ea066393077c1c5eecd51dc85510e"
+  integrity sha512-dKPa2qBvB/3/+UV5SYUuwwXJMKuIo7d2HS1XBfr987gUSbVQYRcqUwcFQ/sm/wviOqUkpDFTT848RS8OpFxLWQ==
   dependencies:
     "@reach/auto-id" "^0.16.0"
     "@zenbu-ui/core" "0.1.9"

@@ -1,0 +1,97 @@
+---
+title: Size
+description: Utilities to set width, height, and responsiveness for all components.
+navigation: [{
+  name: "Width",
+  link: "#width",
+  child: [{
+    name: "Example Width",
+    link: "#example-width"
+  }]
+}, {
+  name: "Height",
+  link: "#height",
+  child: [{
+    name: "Example Height",
+    link: "#example-height"
+  }]
+}, {
+  name: "Responsive",
+  link: "#responsive",
+  child: [{
+    name: "Example Responsive",
+    link: "#example-responsive"
+  }]
+}]
+---
+
+## Width
+A value of width properties, you can use for all components.
+
+<SizeWidth />
+
+### Example Width
+<SizeExampleWidth />
+
+```jsx
+<Box width="96" />
+
+// You can use width and height properties for all components. //
+
+<Button width="full" />
+```
+
+## Height
+A value of height properties, you can use for all components.
+
+<SizeHeight />
+
+### Example Height
+<SizeExampleHeight />
+
+```jsx
+<Box height="96" />
+
+// You can use width and height properties for all components. //
+
+<Button height="5" />
+```
+
+## Responsive
+There are five breakpoints by default, inspired by common device resolutions:
+
+<SizeResponsive />
+
+To add a utility but only have it take effect at a certain breakpoint, all you need to do is use the breakpoint as a property like below:
+
+### Example Responsive
+<SizeExampleResponsive />
+
+```jsx
+<Card
+width="full" lg={{ width: "1/2" }}
+title={(
+  <>
+    <Text
+    lg={{ fontSize: "xs" }}
+    fontSize="sm" color="purple" colorContrast="600"
+    darkColor="purple" darkColorContrast="600">
+      Furniture
+    </Text>
+
+    <Text
+    lg={{ fontSize: "base" }}
+    fontSize="xl" fontWeight="semibold" color="slate" colorContrast="700"
+    darkColor="slate" darkColorContrast="700">
+      Black and Brown Wooden Chair
+    </Text>
+  </>
+)}
+description={( ... )}
+footer={( ... )} />
+```
+See the example above, it uses the card component where it uses the **lg** breakpoint to change the width of the component. If the screen size is 1024px or bigger, the width of card component is 1/2 (width: 50%;) and will change to width 100% when the screen size less than 1024px.
+
+The card component also shows a breakpoint to change the text size. Look at the title, when the breakpoint is **lg** the font size is small and if the screen size will be shrink, the font size will be bigger.
+
+These works to set **width**, **height**, **font size**, **text align**, **flex**, **gap**, and **spacing**.

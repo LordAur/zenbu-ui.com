@@ -143,7 +143,7 @@ export const GridColumnProps = () => {
     prop: (<Tag componentName="prop">width</Tag>),
     type: (<Tag componentName="type">size</Tag>),
     default: (<Tag componentName="type">auto</Tag>),
-    description: <Text componentName="standard">Set width of the grid columns, please read the <Link componentName="standard" href="/docs/sizing">sizing</Link> documentation.</Text>
+    description: <Text componentName="standard">Set width of the grid columns, please read the <Link componentName="standard" href="/docs/size">size</Link> documentation.</Text>
   }]
 
   return(

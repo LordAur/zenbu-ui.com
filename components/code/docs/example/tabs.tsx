@@ -90,32 +90,32 @@ export const TabsProps = () => {
     prop: (<Tag componentName="prop">borderActiveColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: (<Tag componentName="type">blue</Tag>),
-    description: <Text componentName="standard">Change tabs border color for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change tabs border color for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">borderActiveColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: (<Tag componentName="type">600</Tag>),
-    description: <Text componentName="standard">Change tabs border color contrast for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change tabs border color contrast for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">focusColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: (<Tag componentName="type">gray</Tag>),
-    description: <Text componentName="standard">Change focus background color for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change focus background color for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">focusColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: (<Tag componentName="type">100</Tag>),
-    description: <Text componentName="standard">Change focus background color contrast for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change focus background color contrast for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkFocusColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change focus background dark mode color for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change focus background dark mode color for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkFocusColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change focus background dark mode color contrast for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change focus background dark mode color contrast for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }]
 
   return(

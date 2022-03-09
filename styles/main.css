@@ -175,3 +175,15 @@ pre.line-numbers > code {
   padding-right: 0.8em;
   text-align: right;
 }
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  --tw-bg-opacity: 1!important;
+  background-color: rgb(241 245 249/var(--tw-bg-opacity))!important;
+}
+::-webkit-scrollbar-thumb {
+  --tw-bg-opacity: 1!important;
+  background-color: rgb(203 213 225/var(--tw-bg-opacity))!important;
+}

@@ -20,10 +20,10 @@ import { SizingCode } from '../components/code/intro/sizing'
 import { ColoringCode } from '../components/code/intro/coloring'
 import { TypographyCode } from '../components/code/intro/typography'
 import { ResponsiveCode } from '../components/code/intro/responsive'
+import { ExampleResizable } from '../components/example/resizable'
 
 const Home: NextPage = () => {
   const [activeListBox, setActiveListBox] = React.useState(0)
-  const [device, setDevice] = React.useState("mobile")
 
   return (
     <React.Fragment>
@@ -347,42 +347,9 @@ const Home: NextPage = () => {
                       </div>
                     </Box>
                   </div>
-                  <div className="hidden md:block">
-                    <Flexbox direction="col" gap="5" lg={{direction: "row"}}>
-                      <Button
-                      color="slate" colorContrast={device === "mobile" ? "300" : "200"}
-                      darkColor="slate" darkColorContrast={device === "mobile" ? "800" : "600"}
-                      icon="device-mobile"
-                      textColor="slate" textColorContrast="700"
-                      darkTextColor="slate" darkTextColorContrast="100"
-                      onClick={() => setDevice("mobile")}>Mobile</Button>
-                      <Button
-                      color="slate" colorContrast={device === "desktop" ? "300" : "200"}
-                      darkColor="slate" darkColorContrast={device === "desktop" ? "800" : "600"}
-                      icon="desktop-computer"
-                      textColor="slate" textColorContrast="700"
-                      darkTextColor="slate" darkTextColorContrast="100"
-                      onClick={() => setDevice("desktop")}>Desktop</Button>
-                    </Flexbox>
-                  </div>
-                  <div className="flex-none mt-5" style={{width: device === "desktop" ? "830px" : undefined}}>
-                    <Box width="full"
-                    color="gray" colorContrast="800" border={false} px="0" py="3"
-                    lg={{width: device === "desktop" ? "full" : "96"}}>
-                      <Flexbox gap="0.5" alignItems="center" px="3">
-                        <Box width="3" height="3" color="slate" colorContrast="600" rounded="full" border={false} px="0" py="0"></Box>
-                        <Box width="3" height="3" color="slate" colorContrast="600" rounded="full" border={false} px="0" py="0"></Box>
-                        <Box width="3" height="3" color="slate" colorContrast="600" rounded="full" border={false} px="0" py="0"></Box>
-                        <div className="w-max bg-slate-600 rounded-lg px-8 py-1 mx-auto">
-                          <Text fontSize="xs" fontWeight="light" color="slate" colorContrast="300" textAlign="center">kodepanda.com</Text>
-                        </div>
-                      </Flexbox>
-
-                      <div className="mt-5" style={{height: "500px"}}>
-                        <iframe className="w-full h-full" src="/examples/responsive" style={{pointerEvents: "auto"}} />
-                      </div>
-                    </Box>
-                  </div>
+                  <ExampleResizable>
+                    <iframe className="w-full h-120 pointer-events-none" src="/examples/responsive" />
+                  </ExampleResizable>
                 </>
               )}
             </Grid.Column>

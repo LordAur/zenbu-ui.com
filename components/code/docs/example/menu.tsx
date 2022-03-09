@@ -196,92 +196,92 @@ export const MenuProps = () => {
     prop: (<Tag componentName="prop">itemBorderHoverColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change color the menu item border when hovered, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change color the menu item border when hovered, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">itemBorderHoverColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change color contrast the menu item border when hovered, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change color contrast the menu item border when hovered, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">itemTextColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: (<Tag componentName="type">gray</Tag>),
-    description: <Text componentName="standard">Change color the menu item text, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change color the menu item text, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">itemTextColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: (<Tag componentName="type">500</Tag>),
-    description: <Text componentName="standard">Change color contrast the menu item text, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change color contrast the menu item text, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">itemTextColorHover</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: (<Tag componentName="type">gray</Tag>),
-    description: <Text componentName="standard">Change color the menu item text when hovered, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change color the menu item text when hovered, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">itemTextColorHoverContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: (<Tag componentName="type">700</Tag>),
-    description: <Text componentName="standard">Change color contrast the menu item text when hovered, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change color contrast the menu item text when hovered, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkItemTextColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change dark mode color the menu item text, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change dark mode color the menu item text, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkItemTextColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change dark mode color contrast the menu item text, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change dark mode color contrast the menu item text, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkItemTextColorHover</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change dark mode color the menu item text when hovered, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change dark mode color the menu item text when hovered, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkItemTextColorHoverContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change dark mode color contrast the menu item text when hovered, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change dark mode color contrast the menu item text when hovered, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">itemBgColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the menu item background color, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the menu item background color, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">itemBgColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the menu item background color contrast, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the menu item background color contrast, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">itemBgColorHover</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the menu item background color when hovered, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the menu item background color when hovered, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">itemBgColorHoverContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the menu item background color contrast when hovered, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the menu item background color contrast when hovered, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkItemBgColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change dark mode the menu item background color, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change dark mode the menu item background color, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkItemBgColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change dark mode the menu item background color contrast, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change dark mode the menu item background color contrast, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkItemBgColorHover</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change dark mode the menu item background color when hovered, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change dark mode the menu item background color when hovered, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkItemBgColorHoverContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change dark mode the menu item background color contrast when hovered, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change dark mode the menu item background color contrast when hovered, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">itemPX</Tag>),
     type: (<Tag componentName="type">sizing</Tag>),
@@ -354,12 +354,12 @@ export const MenuItemProps = () => {
     prop: (<Tag componentName="prop">iconColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the menu item icon color, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the menu item icon color, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">iconColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the menu item icon color contrast, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the menu item icon color contrast, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">onClick</Tag>),
     type: (<Tag componentName="type">function</Tag>),
@@ -390,99 +390,99 @@ export const MenuDropdownProps = () => {
     description: <Text componentName="standard">You can put an icon on your menu item. Read the <Link componentName="standard" href="/docs/icon">icon</Link> documentation.</Text>
   }, {
     prop: (<Tag componentName="prop">iconHeight</Tag>),
-    type: (<Tag componentName="type">sizing</Tag>),
+    type: (<Tag componentName="type">size</Tag>),
     default: (<Tag componentName="type">4</Tag>),
-    description: <Text componentName="standard">Change the icon height. Read the <Link componentName="standard" href="/docs/icon">sizing</Link> documentation.</Text>
+    description: <Text componentName="standard">Change the icon height. Read the <Link componentName="standard" href="/docs/size">size</Link> documentation.</Text>
   }, {
     prop: (<Tag componentName="prop">iconColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the menu item icon color, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the menu item icon color, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">iconColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the menu item icon color contrast, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the menu item icon color contrast, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">dropdownBgColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: (<Tag componentName="type">white</Tag>),
-    description: <Text componentName="standard">Change the background color of the menu dropdown. Read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the background color of the menu dropdown. Read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">dropdownBgColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the background color contrast of the menu dropdown. Read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the background color contrast of the menu dropdown. Read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkDropdownBgColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the dark mode background color of the menu dropdown. Read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the dark mode background color of the menu dropdown. Read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkDropdownBgColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the dark mode background color contrast of the menu dropdown. Read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the dark mode background color contrast of the menu dropdown. Read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">dropdownBgHoverColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: (<Tag componentName="type">blue</Tag>),
-    description: <Text componentName="standard">Change the background color of the menu dropdown item when hovered. Read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the background color of the menu dropdown item when hovered. Read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">dropdownBgHoverColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: (<Tag componentName="type">500</Tag>),
-    description: <Text componentName="standard">Change the background color contrast of the menu dropdown item when hovered. Read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the background color contrast of the menu dropdown item when hovered. Read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkDropdownBgHoverColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the dark mode background color of the menu dropdown item when hovered. Read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the dark mode background color of the menu dropdown item when hovered. Read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkDropdownBgHoverColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the dark mode background color contrast of the menu dropdown item when hovered. Read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the dark mode background color contrast of the menu dropdown item when hovered. Read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">dropdownTextColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: (<Tag componentName="type">black</Tag>),
-    description: <Text componentName="standard">Change the text color of the menu dropdown. Read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the text color of the menu dropdown. Read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">dropdownTextColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the text color contrast of the menu dropdown. Read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the text color contrast of the menu dropdown. Read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkDropdownTextColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: (<Tag componentName="type">white</Tag>),
-    description: <Text componentName="standard">Change the dark mode text color of the menu dropdown. Read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the dark mode text color of the menu dropdown. Read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkDropdownTextColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the dark mode text color contrast of the menu dropdown. Read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the dark mode text color contrast of the menu dropdown. Read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">dropdownTextHoverColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: (<Tag componentName="type">white</Tag>),
-    description: <Text componentName="standard">Change the text color of the menu dropdown when hovered. Read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the text color of the menu dropdown when hovered. Read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">dropdownTextHoverColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the text color contrast of the menu dropdown when hovered. Read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the text color contrast of the menu dropdown when hovered. Read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkDropdownTextHoverColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the dark mode text color of the menu dropdown when hovered. Read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the dark mode text color of the menu dropdown when hovered. Read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkDropdownTextHoverColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the dark mode text color contrast of the menu dropdown when hovered. Read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the dark mode text color contrast of the menu dropdown when hovered. Read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">dropdownFontSize</Tag>),
     type: (<Tag componentName="type">string</Tag>),
@@ -497,22 +497,22 @@ export const MenuDropdownProps = () => {
     prop: (<Tag componentName="prop">dropdownBorderColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: (<Tag componentName="type">gray</Tag>),
-    description: <Text componentName="standard">Change color the menu dropdown border, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change color the menu dropdown border, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">dropdownBorderColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: (<Tag componentName="type">100</Tag>),
-    description: <Text componentName="standard">Change color contrast the menu dropdown border, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change color contrast the menu dropdown border, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">dropdownRounded</Tag>),
-    type: (<Tag componentName="type">sizing</Tag>),
+    type: (<Tag componentName="type">rounded</Tag>),
     default: (<Tag componentName="type">md</Tag>),
-    description: <Text componentName="standard">Set the menu dropdown rounded, read the <Link componentName="standard" href="/docs/sizing">sizing</Link> documentation.</Text>
+    description: <Text componentName="standard">Set the menu dropdown rounded, read the <Link componentName="standard" href="/docs/rounded">rounded</Link> documentation.</Text>
   }, {
     prop: (<Tag componentName="prop">dropdownIconHeight</Tag>),
-    type: (<Tag componentName="type">sizing</Tag>),
+    type: (<Tag componentName="type">size</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the icon height. Read the <Link componentName="standard" href="/docs/icon">sizing</Link> documentation.</Text>
+    description: <Text componentName="standard">Change the icon height. Read the <Link componentName="standard" href="/docs/size">size</Link> documentation.</Text>
   }, {
     prop: (<Tag componentName="prop">dropdownShadow</Tag>),
     type: (<Tag componentName="type">string</Tag>),
@@ -522,12 +522,12 @@ export const MenuDropdownProps = () => {
     prop: (<Tag componentName="prop">dropdownShadowColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: (<Tag componentName="type">gray</Tag>),
-    description: <Text componentName="standard">Change color the menu dropdown shadow, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change color the menu dropdown shadow, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">dropdownShadowColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: (<Tag componentName="type">100</Tag>),
-    description: <Text componentName="standard">Change color contrast the menu dropdown shadow, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change color contrast the menu dropdown shadow, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">dropdownShadowOpacity</Tag>),
     type: (<Tag componentName="type">number</Tag>),
@@ -535,64 +535,64 @@ export const MenuDropdownProps = () => {
     description: <Text componentName="standard">Set the opacity shadow of the menu dropdown. Read the <Link componentName="standard" href="/docs/shadow">shadow</Link> documentation.</Text>
   }, {
     prop: (<Tag componentName="prop">dropdownMX</Tag>),
-    type: (<Tag componentName="type">sizing</Tag>),
+    type: (<Tag componentName="type">spacing</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the menu item margin x axis. Read the <Link componentName="standard" href="/docs/sizing">sizing</Link> documentation.</Text>
+    description: <Text componentName="standard">Change the menu item margin x axis. Read the <Link componentName="standard" href="/docs/spacing">spacing</Link> documentation.</Text>
   }, {
     prop: (<Tag componentName="prop">dropdownMY</Tag>),
-    type: (<Tag componentName="type">sizing</Tag>),
+    type: (<Tag componentName="type">spacing</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
     description: <Text componentName="standard">Change the menu item margin y axis. Read the <Link componentName="standard" href="/docs/sizing">sizing</Link> documentation.</Text>
   }, {
     prop: (<Tag componentName="prop">dropdownMB</Tag>),
-    type: (<Tag componentName="type">sizing</Tag>),
+    type: (<Tag componentName="type">spacing</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the menu item bottom margin. Read the <Link componentName="standard" href="/docs/sizing">sizing</Link> documentation.</Text>
+    description: <Text componentName="standard">Change the menu item bottom margin. Read the <Link componentName="standard" href="/docs/spacing">spacing</Link> documentation.</Text>
   }, {
     prop: (<Tag componentName="prop">dropdownML</Tag>),
-    type: (<Tag componentName="type">sizing</Tag>),
+    type: (<Tag componentName="type">spacing</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the menu item left margin. Read the <Link componentName="standard" href="/docs/sizing">sizing</Link> documentation.</Text>
+    description: <Text componentName="standard">Change the menu item left margin. Read the <Link componentName="standard" href="/docs/spacing">spacing</Link> documentation.</Text>
   }, {
     prop: (<Tag componentName="prop">dropdownMR</Tag>),
-    type: (<Tag componentName="type">sizing</Tag>),
+    type: (<Tag componentName="type">spacing</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the menu item right margin. Read the <Link componentName="standard" href="/docs/sizing">sizing</Link> documentation.</Text>
+    description: <Text componentName="standard">Change the menu item right margin. Read the <Link componentName="standard" href="/docs/spacing">spacing</Link> documentation.</Text>
   }, {
     prop: (<Tag componentName="prop">dropdownMT</Tag>),
-    type: (<Tag componentName="type">sizing</Tag>),
+    type: (<Tag componentName="type">spacing</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the menu item top margin. Read the <Link componentName="standard" href="/docs/sizing">sizing</Link> documentation.</Text>
+    description: <Text componentName="standard">Change the menu item top margin. Read the <Link componentName="standard" href="/docs/spacing">spacing</Link> documentation.</Text>
   }, {
     prop: (<Tag componentName="prop">dropdownItemPX</Tag>),
-    type: (<Tag componentName="type">sizing</Tag>),
+    type: (<Tag componentName="type">spacing</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the menu dropdown item padding x axis. Read the <Link componentName="standard" href="/docs/sizing">sizing</Link> documentation.</Text>
+    description: <Text componentName="standard">Change the menu dropdown item padding x axis. Read the <Link componentName="standard" href="/docs/spacing">spacing</Link> documentation.</Text>
   }, {
     prop: (<Tag componentName="prop">dropdownItemPY</Tag>),
-    type: (<Tag componentName="type">sizing</Tag>),
+    type: (<Tag componentName="type">spacing</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the menu dropdown item padding y axis. Read the <Link componentName="standard" href="/docs/sizing">sizing</Link> documentation.</Text>
+    description: <Text componentName="standard">Change the menu dropdown item padding y axis. Read the <Link componentName="standard" href="/docs/spacing">spacing</Link> documentation.</Text>
   }, {
     prop: (<Tag componentName="prop">dropdownItemPB</Tag>),
-    type: (<Tag componentName="type">sizing</Tag>),
+    type: (<Tag componentName="type">spacing</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the menu dropdown item bottom padding. Read the <Link componentName="standard" href="/docs/sizing">sizing</Link> documentation.</Text>
+    description: <Text componentName="standard">Change the menu dropdown item bottom padding. Read the <Link componentName="standard" href="/docs/spacing">spacing</Link> documentation.</Text>
   }, {
     prop: (<Tag componentName="prop">dropdownItemPL</Tag>),
-    type: (<Tag componentName="type">sizing</Tag>),
+    type: (<Tag componentName="type">spacing</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the menu dropdown item left padding. Read the <Link componentName="standard" href="/docs/sizing">sizing</Link> documentation.</Text>
+    description: <Text componentName="standard">Change the menu dropdown item left padding. Read the <Link componentName="standard" href="/docs/spacing">spacing</Link> documentation.</Text>
   }, {
     prop: (<Tag componentName="prop">dropdownItemPR</Tag>),
-    type: (<Tag componentName="type">sizing</Tag>),
+    type: (<Tag componentName="type">spacing</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the menu dropdown item right padding. Read the <Link componentName="standard" href="/docs/sizing">sizing</Link> documentation.</Text>
+    description: <Text componentName="standard">Change the menu dropdown item right padding. Read the <Link componentName="standard" href="/docs/spacing">spacing</Link> documentation.</Text>
   }, {
     prop: (<Tag componentName="prop">dropdownItemPT</Tag>),
-    type: (<Tag componentName="type">sizing</Tag>),
+    type: (<Tag componentName="type">spacing</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the menu dropdown item top padding. Read the <Link componentName="standard" href="/docs/sizing">sizing</Link> documentation.</Text>
+    description: <Text componentName="standard">Change the menu dropdown item top padding. Read the <Link componentName="standard" href="/docs/spacing">spacing</Link> documentation.</Text>
   }]
 
   return(

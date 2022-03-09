@@ -108,12 +108,12 @@ export const HeaderProps = () => {
     prop: (<Tag componentName="prop">markerColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the header marker color for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the header marker color for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">markerColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the header marker color contrast for more information, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the header marker color contrast for more information, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">uppercase</Tag>),
     type: (<Tag componentName="type">boolean</Tag>),

@@ -168,7 +168,7 @@ export const ColumnTable = () => {
   }, {
     key: (<Tag componentName="prop">width</Tag>),
     type: (<Tag componentName="prop">size</Tag>),
-    description: <Text componentName="standard">Set the header column width, read the <Link componentName="standard" href="/docs/sizing">size</Link> documentation.</Text>
+    description: <Text componentName="standard">Set the header column width, read the <Link componentName="standard" href="/docs/size">size</Link> documentation.</Text>
   }, {
     key: (<Tag componentName="prop">onClick</Tag>),
     type: (<Tag componentName="prop">function</Tag>),
@@ -243,132 +243,132 @@ export const TableProps = () => {
     prop: (<Tag componentName="prop">colColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default:  <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the columns background color, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the columns background color, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">colColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default:  <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the columns background color contrast, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the columns background color contrast, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkColColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the columns background dark mode color, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the columns background dark mode color, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkColColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default:  <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the columns background dark mode color constrast, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the columns background dark mode color constrast, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">colBorderWidth</Tag>),
-    type: (<Tag componentName="type">size</Tag>),
+    type: (<Tag componentName="type">border</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the columns border width, read the <Link componentName="standard" href="/docs/sizing">sizing</Link> documentation.</Text>
+    description: <Text componentName="standard">Change the columns border width, read the <Link componentName="standard" href="/docs/border">border</Link> documentation.</Text>
   },{
     prop: (<Tag componentName="prop">colBorderColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: (<Tag componentName="type">gray</Tag>),
-    description: <Text componentName="standard">Change the columns border color, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the columns border color, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">colBorderColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: (<Tag componentName="type">200</Tag>),
-    description: <Text componentName="standard">Change the columns border color contrast, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the columns border color contrast, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">rowColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default:  <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the rows background color, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the rows background color, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">rowColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default:  <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the rows background color contrast, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the rows background color contrast, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">rowColorHover</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default:  <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the rows background color hover, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the rows background color hover, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">rowColorHoverContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default:  <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the rows background color hover contrast, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the rows background color hover contrast, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkRowColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default:  <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the rows background dark mode color, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the rows background dark mode color, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkRowColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default:  <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the rows background dark mode color contrast, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the rows background dark mode color contrast, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkRowColorHover</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default:  <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the rows background dark mode color hover, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the rows background dark mode color hover, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkRowColorHoverContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default:  <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the rows background dark mode color hover contrast, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the rows background dark mode color hover contrast, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">rowBorderWidth</Tag>),
-    type: (<Tag componentName="type">size</Tag>),
+    type: (<Tag componentName="type">border</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the rows border width, read the <Link componentName="standard" href="/docs/sizing">sizing</Link> documentation.</Text>
+    description: <Text componentName="standard">Change the rows border width, read the <Link componentName="standard" href="/docs/border">border</Link> documentation.</Text>
   },{
     prop: (<Tag componentName="prop">rowBorderColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default: (<Tag componentName="type">gray</Tag>),
-    description: <Text componentName="standard">Change the rows border color, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the rows border color, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">rowBorderColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default: (<Tag componentName="type">200</Tag>),
-    description: <Text componentName="standard">Change the rows border color contrast, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the rows border color contrast, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">stripeColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default:  <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the rows stripe background color, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the rows stripe background color, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">stripeColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default:  <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the rows stripe background color contrast, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the rows stripe background color contrast, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkStripeColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default:  <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the rows stripe background dark mode color, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the rows stripe background dark mode color, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkStripeColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default:  <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the rows stripe background dark mode color contrast, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the rows stripe background dark mode color contrast, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">checkboxColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default:  <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the checkbox color, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the checkbox color, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">checkboxColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default:  <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the checkbox color contrast, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the checkbox color contrast, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkCheckboxColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
     default:  <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the checkbox dark mode color, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the checkbox dark mode color, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">darkCheckboxColorContrast</Tag>),
     type: (<Tag componentName="type">contrast</Tag>),
     default:  <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the checkbox dark mode color contrast, read the <Link componentName="standard" href="/docs/color-pallete">color palette</Link>.</Text>
+    description: <Text componentName="standard">Change the checkbox dark mode color contrast, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">onSelected(selected: Array)</Tag>),
     type: (<Tag componentName="type">function</Tag>),

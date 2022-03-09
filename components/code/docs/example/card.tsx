@@ -196,7 +196,7 @@ export const CardProps = () => {
     prop: (<Tag componentName="prop">coverWidth</Tag>),
     type: (<Tag componentName="type">size</Tag>),
     default: (<Tag componentName="type">full</Tag>),
-    description: <Text componentName="standard">Set width of the cover image, please read the <Link componentName="standard" href="/docs/sizing">sizing</Link> documentation.</Text>
+    description: <Text componentName="standard">Set width of the cover image, please read the <Link componentName="standard" href="/docs/size">size</Link> documentation.</Text>
   }, {
     prop: (<Tag componentName="prop">coverPosition</Tag>),
     type: (<Tag componentName="type">string</Tag>),

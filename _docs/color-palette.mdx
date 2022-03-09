@@ -1,0 +1,92 @@
+---
+title: Color Palette
+description: The default color palette for all components.
+navigation: [{
+  name: "Colors",
+  link: "#colors",
+  child: [{
+    name: "Example Color",
+    link: "#example-color"
+  }, {
+    name: "Example Color Dark Mode",
+    link: "#example-color-dark-mode"
+  }]
+}, {
+  name: "Text Color",
+  link: "#text-color"
+}, {
+  name: "Border Color",
+  link: "#border-color"
+}, {
+  name: "Color Properties",
+  link: "#color-properties"
+}]
+---
+
+## Colors
+
+You can use the default color palette for all components, use the property **color** and **colorContrast** to color the components.
+
+<ColorPalette />
+
+### Example Color
+
+```jsx
+<Box color="red" colorContrast="600" />
+<Box color="blue" colorContrast="600" />
+<Box color="green" colorContrast="600" />
+```
+
+<ColorPaletteExample />
+
+### Example Color Dark Mode
+
+If you want to set a different color for dark mode, you can use **darkColor** and **darkColorContrast** properties like the example below:
+
+```jsx
+<Box
+  color="red" colorContrast="600"
+  darkColor="red" darkColorContrast="800" />
+<Box
+  color="blue" colorContrast="600"
+  darkColor="blue" darkColorContrast="800" />
+<Box
+  color="green" colorContrast="600"
+  darkColor="green" darkColorContrast="800" />
+```
+
+<ColorPaletteDarkExample />
+
+## Text Color
+You can change the color of text with **textColor**, **textColorContrast**, **darkTextColor**, and **darkTextColorContrast** properties.
+
+<TextColorExample />
+
+```jsx
+<Button textColor="slate" textColorContrast="700">Button</Button>
+<Button textColor="red" textColorContrast="700">Button</Button>
+<Button textColor="blue" textColorContrast="700">Button</Button>
+```
+
+## Border Color
+You can change the border color with **borderColor** and **borderColorContrast** properties.
+
+<BorderColorExample />
+
+```jsx
+<Button border
+borderColor="red" borderColorContrast="700">
+  Button
+</Button>
+
+<Button border
+borderColor="blue" borderColorContrast="700">
+  Button
+</Button>
+```
+
+## Color Properties
+
+There are many properties that can be used to change the color of a particular component, here is a list of the existing properties:
+
+<ColorList />

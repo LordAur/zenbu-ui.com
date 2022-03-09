@@ -47,7 +47,7 @@ export const IconProps = () => {
     prop: (<Tag componentName="prop">hight</Tag>),
     type: (<Tag componentName="type">size</Tag>),
     default: (<Tag componentName="type">12</Tag>),
-    description: <Text componentName="standard">Read the <Link componentName="standard" href="/docs/sizing">size documentation</Link>.</Text>
+    description: <Text componentName="standard">Read the <Link componentName="standard" href="/docs/size">size</Link> documentation.</Text>
   }]
 
   return(
