@@ -104,7 +104,7 @@ export const AvatarGroupProps = () => {
     prop: (<Tag componentName="prop">space</Tag>),
     type: (<Tag componentName="type">number</Tag>),
     default: (<Tag componentName="type">-4</Tag>),
-    description: <Text componentName="standard">Set the space between an avatar group image. Read the <Link componentName="standard" href="/docs/space">space between</Link> documentation.</Text>
+    description: <Text componentName="standard">Set the space between an avatar group image. Read the <Link componentName="standard" href="/docs/spacing">spacing</Link> documentation.</Text>
   }]
 
   return(

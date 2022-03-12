@@ -113,7 +113,14 @@ const Home: NextPage = () => {
               icon="duplicate" iconPosition="right"
               textColor="slate" textColorContrast="500"
               darkTextColor="slate" darkTextColorContrast="700"
-              width="full" lg={{width: "max"}}>yarn add @zenbu-ui/react</Button>
+              width="full" lg={{width: "max"}} onClick={() => {
+                var dummy = document.createElement("textarea")
+                document.body.appendChild(dummy)
+                dummy.value = "yarn add @zenbu-ui/react"
+                dummy.select()
+                document.execCommand("copy")
+                document.body.removeChild(dummy)
+              }}>yarn add @zenbu-ui/react</Button>
             </Flexbox>
           </div>
         </Box>

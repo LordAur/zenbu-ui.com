@@ -1,0 +1,62 @@
+---
+title: Shadow
+description: Styling the shadow of a component.
+navigation: [{
+  name: "Box Shadow",
+  link: "#box-shadow"
+}, {
+  name: "Removing the shadow",
+  link: "#removing-the-shadow"
+}, {
+  name: "Shadow Color",
+  link: "#shadow-color"
+}]
+---
+
+<BoxShadow />
+
+## Box Shadow
+Use **shadow** properties to control the shadow of the component.
+
+<BoxShadowExample />
+
+```jsx
+<Box shadow="md" />
+<Box shadow="lg" />
+<Box shadow="xl" />
+<Box shadow="2xl" />
+```
+
+## Removing the shadow
+Fill **shadow** properties with none to remove the shadow from component.
+
+<BoxShadowNoneExample />
+
+```jsx
+<Box shadow="none" />
+```
+
+## Shadow Color
+You can change the shadow color, use the **shadowColor**, **shadowColorContrast**, and **shadowOpacity** properties. By default, the opacity of shadow is 50% you can change the shadowOpacity.
+
+<BoxShadowColorExample />
+
+```jsx
+<Button
+shadow="xl" shadowOpacity={50}
+shadowColor="cyan" shadowColorContrast="500">
+  Button
+</Button>
+
+<Button
+shadow="xl" shadowOpacity={50}
+shadowColor="blue" shadowColorContrast="500">
+  Button
+</Button>
+
+<Button
+shadow="xl" shadowOpacity={50}
+shadowColor="indigo" shadowColorContrast="500">
+  Button
+</Button>
+```

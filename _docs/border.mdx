@@ -1,0 +1,52 @@
+---
+title: Border
+description: Styling the border of a component.
+navigation: [{
+  name: "Border Width",
+  link: "#border-width"
+}, {
+  name: "Border Style",
+  link: "#border-style"
+}, {
+  name: "Border Position",
+  link: "#border-position"
+}]
+---
+
+<BorderSize />
+
+## Border Width
+Use the **border** properties to display the border of the component. By default, the border width of the component is `normal` (border-width: 1px;), to change the border width use the **borderWidth** property.
+
+<BorderSizeExample />
+
+```jsx
+<Box border borderWidth="normal" />
+<Box border borderWidth="2" />
+<Box border borderWidth="4" />
+<Box border borderWidth="8" />
+```
+
+## Border Style
+Use the **borderStyle** properties to change the style of the component border.
+
+<BorderStyleExample />
+
+```jsx
+<Box border borderStyle="solid" />
+<Box border borderStyle="dashed" />
+<Box border borderStyle="dotted" />
+<Box border borderStyle="double" />
+```
+
+## Border Position
+Use the **borderPosition** to set the border width for one side of the component.
+
+<BorderPositionExample />
+
+```jsx
+<Box border borderPosition="top" />
+<Box border borderPosition="right" />
+<Box border borderPosition="bottom" />
+<Box border borderPosition="left" />
+```

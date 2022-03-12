@@ -245,9 +245,9 @@ export const FlexboxProps = () => {
     description: <Text componentName="standard">Prevent a flex item from shrinking.</Text>
   }, {
     prop: (<Tag componentName="prop">gap</Tag>),
-    type: (<Tag componentName="type">space</Tag>),
+    type: (<Tag componentName="type">number</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Set a gap between flex items, read the <Link componentName="standard" href="/docs/space-between">space between</Link> documentation.</Text>
+    description: <Text componentName="standard">Set a gap between flex items, read the <Link componentName="standard" href="/docs/spacing">spacing</Link> documentation.</Text>
   }]
 
   return(

@@ -64,6 +64,12 @@ import { PreviewCreditCard, CreditCardProps } from '../../components/code/docs/e
 import { PreviewPhone, PreviewPhoneCountry, PhoneProps } from '../../components/code/docs/example/phone'
 import { SizeWidth, SizeHeight, SizeResponsive, SizeExampleWidth, SizeExampleHeight, SizeExampleResponsive } from '../../components/code/docs/example/size'
 import { ColorPalette, ColorPaletteExample, ColorPaletteDarkExample, TextColorExample, BorderColorExample, ColorList } from '../../components/code/docs/example/color-palette'
+import { RoundedSize, RoundedExample, RoundedPositionExample, RoundedPositionOneCornerExample } from '../../components/code/docs/example/rounded'
+import { BoxShadow, BoxShadowExample, BoxShadowNoneExample, BoxShadowColorExample } from '../../components/code/docs/example/shadow'
+import { BorderSize, BorderSizeExample, BorderStyleExample, BorderPositionExample } from '../../components/code/docs/example/border'
+import { FontSize, FontSizeExample, FontWeight, FontWeightExample } from '../../components/code/docs/example/font'
+import { Padding, PaddingExample, PaddingHorizontalExample, PaddingVerticalExample, Margin, MarginExample, MarginHorizontalExample, MarginVerticalExample, GapSize, GapExample, GapRowColumnExample } from '../../components/code/docs/example/spacing'
+import { RotateSize, RotateExample } from '../../components/code/docs/example/rotate'
 
 const DocsPage = (props: any) => {
   const components = {
@@ -119,6 +125,12 @@ const DocsPage = (props: any) => {
     PreviewPhone, PreviewPhoneCountry, PhoneProps,
     SizeWidth, SizeHeight, SizeResponsive, SizeExampleWidth, SizeExampleHeight, SizeExampleResponsive,
     ColorPalette, ColorPaletteExample, ColorPaletteDarkExample, TextColorExample, BorderColorExample, ColorList,
+    RoundedSize, RoundedExample, RoundedPositionExample, RoundedPositionOneCornerExample,
+    BoxShadow, BoxShadowExample, BoxShadowNoneExample, BoxShadowColorExample,
+    BorderSize, BorderSizeExample, BorderStyleExample, BorderPositionExample,
+    FontSize, FontSizeExample, FontWeight, FontWeightExample,
+    Padding, PaddingExample, PaddingHorizontalExample, PaddingVerticalExample, Margin, MarginExample, MarginHorizontalExample, MarginVerticalExample, GapSize, GapExample, GapRowColumnExample,
+    RotateSize, RotateExample,
     ...Layout
   }
 

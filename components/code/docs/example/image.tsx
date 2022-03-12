@@ -78,7 +78,7 @@ export const ImageProps = () => {
     prop: (<Tag componentName="prop">captionFontSize</Tag>),
     type: (<Tag componentName="type">font size</Tag>),
     default: (<Tag componentName="type">xs</Tag>),
-    description: <Text componentName="standard">Set the caption font size, read the <Link componentName="standard" href="/docs/font-size">font size</Link> documentation.</Text>
+    description: <Text componentName="standard">Set the caption font size, read the <Link componentName="standard" href="/docs/font">font</Link> documentation.</Text>
   }, {
     prop: (<Tag componentName="prop">objectFit</Tag>),
     type: (<Tag componentName="type">object fit</Tag>),

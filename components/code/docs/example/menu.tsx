@@ -169,9 +169,9 @@ export const MenuProps = () => {
     description: <Text componentName="standard">Change the menu item position, you can set with left, right, or center.</Text>
   }, {
     prop: (<Tag componentName="prop">itemRounded</Tag>),
-    type: (<Tag componentName="type">sizing</Tag>),
+    type: (<Tag componentName="type">size</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Set the menu item rounded, read the <Link componentName="standard" href="/docs/sizing">sizing</Link> documentation.</Text>
+    description: <Text componentName="standard">Set the menu item rounded, read the <Link componentName="standard" href="/docs/size">size</Link> documentation.</Text>
   }, {
     prop: (<Tag componentName="prop">itemActiveFontWeight</Tag>),
     type: (<Tag componentName="type">string</Tag>),
@@ -284,34 +284,34 @@ export const MenuProps = () => {
     description: <Text componentName="standard">Change dark mode the menu item background color contrast when hovered, read the <Link componentName="standard" href="/docs/color-palette">color palette</Link>.</Text>
   }, {
     prop: (<Tag componentName="prop">itemPX</Tag>),
-    type: (<Tag componentName="type">sizing</Tag>),
+    type: (<Tag componentName="type">size</Tag>),
     default: (<Tag componentName="type">5</Tag>),
-    description: <Text componentName="standard">Change the menu item padding x axis. Read the <Link componentName="standard" href="/docs/sizing">sizing</Link> documentation.</Text>
+    description: <Text componentName="standard">Change the menu item padding x axis. Read the <Link componentName="standard" href="/docs/size">size</Link> documentation.</Text>
   }, {
     prop: (<Tag componentName="prop">itemPY</Tag>),
-    type: (<Tag componentName="type">sizing</Tag>),
+    type: (<Tag componentName="type">size</Tag>),
     default: (<Tag componentName="type">3</Tag>),
-    description: <Text componentName="standard">Change the menu item padding y axis. Read the <Link componentName="standard" href="/docs/sizing">sizing</Link> documentation.</Text>
+    description: <Text componentName="standard">Change the menu item padding y axis. Read the <Link componentName="standard" href="/docs/size">size</Link> documentation.</Text>
   }, {
     prop: (<Tag componentName="prop">itemPB</Tag>),
-    type: (<Tag componentName="type">sizing</Tag>),
+    type: (<Tag componentName="type">size</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the menu item bottom padding. Read the <Link componentName="standard" href="/docs/sizing">sizing</Link> documentation.</Text>
+    description: <Text componentName="standard">Change the menu item bottom padding. Read the <Link componentName="standard" href="/docs/size">size</Link> documentation.</Text>
   }, {
     prop: (<Tag componentName="prop">itemPL</Tag>),
-    type: (<Tag componentName="type">sizing</Tag>),
+    type: (<Tag componentName="type">size</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the menu item left padding. Read the <Link componentName="standard" href="/docs/sizing">sizing</Link> documentation.</Text>
+    description: <Text componentName="standard">Change the menu item left padding. Read the <Link componentName="standard" href="/docs/size">size</Link> documentation.</Text>
   }, {
     prop: (<Tag componentName="prop">itemPR</Tag>),
-    type: (<Tag componentName="type">sizing</Tag>),
+    type: (<Tag componentName="type">size</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the menu item right padding. Read the <Link componentName="standard" href="/docs/sizing">sizing</Link> documentation.</Text>
+    description: <Text componentName="standard">Change the menu item right padding. Read the <Link componentName="standard" href="/docs/size">size</Link> documentation.</Text>
   }, {
     prop: (<Tag componentName="prop">itemPT</Tag>),
-    type: (<Tag componentName="type">sizing</Tag>),
+    type: (<Tag componentName="type">size</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the menu item top padding. Read the <Link componentName="standard" href="/docs/sizing">sizing</Link> documentation.</Text>
+    description: <Text componentName="standard">Change the menu item top padding. Read the <Link componentName="standard" href="/docs/size">size</Link> documentation.</Text>
   }]
 
   return(
@@ -347,9 +347,9 @@ export const MenuItemProps = () => {
     description: <Text componentName="standard">You can put an icon on your menu item. Read the <Link componentName="standard" href="/docs/icon">icon</Link> documentation.</Text>
   }, {
     prop: (<Tag componentName="prop">iconHeight</Tag>),
-    type: (<Tag componentName="type">sizing</Tag>),
+    type: (<Tag componentName="type">size</Tag>),
     default: (<Tag componentName="type">4</Tag>),
-    description: <Text componentName="standard">Change the icon height. Read the <Link componentName="standard" href="/docs/icon">sizing</Link> documentation.</Text>
+    description: <Text componentName="standard">Change the icon height. Read the <Link componentName="standard" href="/docs/icon">size</Link> documentation.</Text>
   }, {
     prop: (<Tag componentName="prop">iconColor</Tag>),
     type: (<Tag componentName="type">color</Tag>),
@@ -542,7 +542,7 @@ export const MenuDropdownProps = () => {
     prop: (<Tag componentName="prop">dropdownMY</Tag>),
     type: (<Tag componentName="type">spacing</Tag>),
     default: <Text fontSize="sm" textAlign="center">-</Text>,
-    description: <Text componentName="standard">Change the menu item margin y axis. Read the <Link componentName="standard" href="/docs/sizing">sizing</Link> documentation.</Text>
+    description: <Text componentName="standard">Change the menu item margin y axis. Read the <Link componentName="standard" href="/docs/size">size</Link> documentation.</Text>
   }, {
     prop: (<Tag componentName="prop">dropdownMB</Tag>),
     type: (<Tag componentName="type">spacing</Tag>),

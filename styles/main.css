@@ -176,6 +176,16 @@ pre.line-numbers > code {
   text-align: right;
 }
 
+.bg-stripes-white {
+  background-image: linear-gradient(135deg,hsla(0,0%,100%,.75) 10%,transparent 0,transparent 50%,hsla(0,0%,100%,.75) 0,hsla(0,0%,100%,.75) 60%,transparent 0,transparent);
+  background-size: 7.07px 7.07px;
+}
+.bg-stripes-purple {
+  background-color: #c084fc1a;
+  background-image: linear-gradient(135deg,#a855f780 10%,transparent 0,transparent 50%,#a855f780 0,#a855f780 60%,transparent 0,transparent);
+  background-size: 7.07px 7.07px;
+}
+
 ::-webkit-scrollbar {
   width: 5px;
 }

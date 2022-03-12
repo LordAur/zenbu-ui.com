@@ -3534,6 +3534,30 @@ export const ColorList = () => {
   }, {
     prop: <Tag componentName="prop">firstLetterTextColorContrast</Tag>,
     description: <Text componentName="standard">Change the first text color contrast of the component.</Text>
+  }, {
+    prop: <Tag componentName="prop">focusColor</Tag>,
+    description: <Text componentName="standard">Change the color when the component has focus.</Text>
+  }, {
+    prop: <Tag componentName="prop">focusColorContrast</Tag>,
+    description: <Text componentName="standard">Change the color contrast when the component has focus.</Text>
+  }, {
+    prop: <Tag componentName="prop">darkFocusColor</Tag>,
+    description: <Text componentName="standard">The color contrast when the component has focus will be changed if the dark mode is active.</Text>
+  }, {
+    prop: <Tag componentName="prop">darkFocusColorContrast</Tag>,
+    description: <Text componentName="standard">The color contrast when the component has focus will be changed if the dark mode is active.</Text>
+  }, {
+    prop: <Tag componentName="prop">focusTextColor</Tag>,
+    description: <Text componentName="standard">Change the text color when the component has focus.</Text>
+  }, {
+    prop: <Tag componentName="prop">focusTextColorContrast</Tag>,
+    description: <Text componentName="standard">Change the text color contrast when the component has focus.</Text>
+  }, {
+    prop: <Tag componentName="prop">darkFocusTextColor</Tag>,
+    description: <Text componentName="standard">The text color when the component has focus will be changed if the dark mode is active.</Text>
+  }, {
+    prop: <Tag componentName="prop">darkFocusTextColorContrast</Tag>,
+    description: <Text componentName="standard">The text color contrast when the component has focus will be changed if the dark mode is active.</Text>
   }]
 
   return(

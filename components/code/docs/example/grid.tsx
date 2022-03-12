@@ -123,9 +123,9 @@ export const PreviewGridNested = () => {
 export const GridProps = () => {
   const rows = [{
     prop: (<Tag componentName="prop">gap</Tag>),
-    type: (<Tag componentName="type">space</Tag>),
+    type: (<Tag componentName="type">number</Tag>),
     default: (<Tag componentName="type">4</Tag>),
-    description: <Text componentName="standard">Set a gap between flex items, read the <Link componentName="standard" href="/docs/space-between">space between</Link> documentation.</Text>
+    description: <Text componentName="standard">Set a gap between flex items, read the <Link componentName="standard" href="/docs/spacing">spacing</Link> documentation.</Text>
   }]
 
   return(

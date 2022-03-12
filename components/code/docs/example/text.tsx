@@ -145,12 +145,12 @@ export const TextProps = () => {
     prop: (<Tag componentName="prop">fontSize</Tag>),
     type: (<Tag componentName="type">string</Tag>),
     default: (<Tag componentName="type">base</Tag>),
-    description: <Text componentName="standard">Set the font size with xs, sm, base, lg, xl, 2xl or 3xl. Read the <Link componentName="standard" href="/docs/font">font size</Link> documentation.</Text>
+    description: <Text componentName="standard">Set the font size with xs, sm, base, lg, xl, 2xl or 3xl. Read the <Link componentName="standard" href="/docs/font">font</Link> documentation.</Text>
   }, {
     prop: (<Tag componentName="prop">fontWeight</Tag>),
     type: (<Tag componentName="type">string</Tag>),
     default: (<Tag componentName="type">normal</Tag>),
-    description: <Text componentName="standard">Set with extralight, light, normal, semibold, or bold. Read the <Link componentName="standard" href="/docs/font">font weight</Link> documentation.</Text>
+    description: <Text componentName="standard">Set with extralight, light, normal, semibold, or bold. Read the <Link componentName="standard" href="/docs/font">font</Link> documentation.</Text>
   }]
 
   return(

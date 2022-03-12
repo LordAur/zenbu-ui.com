@@ -31,8 +31,14 @@ export const MenuDocs = (props: MenuDocs) => {
       </Menu.Items>
 
       <Menu.Items title={(<Text fontSize="xs" color="black" ml="5" mb="2">Styling</Text>)}>
+        <Menu.Item active={props.slug === "border"} onClick={() => router.push("/docs/border")}>Border</Menu.Item>
         <Menu.Item active={props.slug === "color-palette"} onClick={() => router.push("/docs/color-palette")}>Color Palette</Menu.Item>
+        <Menu.Item active={props.slug === "font"} onClick={() => router.push("/docs/font")}>Font</Menu.Item>
+        <Menu.Item active={props.slug === "rotate"} onClick={() => router.push("/docs/rotate")}>Rotate</Menu.Item>
+        <Menu.Item active={props.slug === "rounded"} onClick={() => router.push("/docs/rounded")}>Rounded</Menu.Item>
+        <Menu.Item active={props.slug === "shadow"} onClick={() => router.push("/docs/shadow")}>Shadow</Menu.Item>
         <Menu.Item active={props.slug === "size"} onClick={() => router.push("/docs/size")}>Size</Menu.Item>
+        <Menu.Item active={props.slug === "spacing"} onClick={() => router.push("/docs/spacing")}>Spacing</Menu.Item>
       </Menu.Items>
 
       <Menu.Items title={(<Text fontSize="xs" color="black" ml="5" mb="2">Components</Text>)}>

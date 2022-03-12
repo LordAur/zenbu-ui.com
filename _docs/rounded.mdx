@@ -1,0 +1,52 @@
+---
+title: Rounded
+description: Styling the rounded corner of a component.
+navigation: [{
+  name: "Rounded Corner",
+  link: "#rounded-corner"
+}, {
+  name: "Rounding sides separately",
+  link: "#rounding-sides-separately"
+}, {
+  name: "Rounding corners separately",
+  link: "#rounding-corners-separately"
+}]
+---
+
+<RoundedSize />
+
+## Rounded Corner
+Use **rounded** properties to control the corner of the component. To use the circle corner you must set the same value of **width** and **height** properties.
+
+<RoundedExample />
+
+```jsx
+<Box rounded="sm" />
+<Box rounded="md" />
+<Box rounded="lg" />
+<Box width="5" height="5" rounded="full" />
+```
+
+## Rounding sides separately
+Use **roundedPosition** to only round one side of a component.
+
+<RoundedPositionExample />
+
+```jsx
+<Box roundedPosition="top" />
+<Box roundedPosition="right" />
+<Box roundedPosition="bottom" />
+<Box roundedPosition="left" />
+```
+
+## Rounding corners separately
+You can make the only one corner of the component like below:
+
+<RoundedPositionOneCornerExample />
+
+```jsx
+<Box roundedPosition="top-left" />
+<Box roundedPosition="top-right" />
+<Box roundedPosition="bottom-left" />
+<Box roundedPosition="bottom-right" />
+```

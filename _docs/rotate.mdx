@@ -1,0 +1,32 @@
+---
+title: Rotate
+description: Properties for rotating the components.
+navigation: [{
+  name: "Rotate the component",
+  link: "#rotate-the-component"
+}, {
+  name: "Using negative values",
+  link: "#using-negative-values"
+}]
+---
+
+<RotateSize />
+
+## Rotate the component
+Use **rotate** properties to rotate the components. You can use this properties for image and box component.
+
+<RotateExample />
+
+```jsx
+<Image src="..." rotate="0" />
+<Image src="..." rotate="45" />
+<Image src="..." rotate="90" />
+<Image src="..." rotate="180" />
+```
+
+## Using negative values
+To use a negative rotate value, prefix the value of properties with a dash to convert it to a negative value.
+
+```jsx
+<Image src="..." rotate="-45" />
+```

@@ -1,0 +1,126 @@
+---
+title: Spacing
+description: Styling the spacing of a component like padding, margin, gap, or space between.
+navigation: [{
+  name: "Padding",
+  link: "#padding",
+  child: [{
+    name: "Horizontal Padding",
+    link: "#horizontal-padding"
+  }, {
+    name: "Vertical Padding",
+    link: "#vertical-padding"
+  }]
+}, {
+  name: "Margin",
+  link: "#margin",
+  child: [{
+    name: "Horizontal Margin",
+    link: "#horizontal-margin"
+  }, {
+    name: "Vertical Margin",
+    link: "#vertical-margin"
+  }]
+}, {
+  name: "Gap",
+  link: "#gap",
+  child: [{
+    name: "Changing row and column gaps",
+    link: "#changing-row-and-column-gaps"
+  }]
+}]
+---
+
+<Padding />
+
+## Padding
+Use **pt**, **pr**, **pb**, or **pl** to control padding on one side of the component.
+
+<PaddingExample />
+
+```jsx
+<Box pt="6" />
+<Box pr="4" />
+<Box pb="8" />
+<Box pl="2" />
+```
+
+### Horizontal Padding
+Control the horizontal padding of a component using the **px** properties.
+
+<PaddingHorizontalExample />
+
+```jsx
+<Box px="8" />
+```
+
+### Vertical Padding
+Control the vertical padding of a component using the **py** properties.
+
+<PaddingVerticalExample />
+
+```jsx
+<Box py="8" />
+```
+
+## Margin
+Use **mt**, **mr**, **mb**, or **ml** to control margin on one side of the component.
+
+<Margin />
+
+<MarginExample />
+
+```jsx
+<Box ml="2" />
+<Box mt="6" />
+<Box mb="8" />
+<Box mr="4" />
+```
+
+### Horizontal Margin
+Control the horizontal margin of a component using the **mx** properties.
+
+<MarginHorizontalExample />
+
+```jsx
+<Box mx="8" />
+```
+
+### Vertical Margin
+Control the vertical margin of a component using the **my** properties.
+
+<MarginVerticalExample />
+
+```jsx
+<Box my="8" />
+```
+
+## Gap
+Use **gap** properties to change the gap between both rows and columns in grid and flexbox components.
+
+<GapSize />
+
+<GapExample />
+
+```jsx
+<Grid cols='2' gap='4'>
+  <Grid.Column width="auto"></Grid.Column>
+  <Grid.Column width="auto"></Grid.Column>
+  <Grid.Column width="auto"></Grid.Column>
+  <Grid.Column width="auto"></Grid.Column>
+</Grid>
+```
+
+### Changing row and column gaps
+Use **gapX** and **gapY** properties to change the column and row gap between.
+
+<GapRowColumnExample />
+
+```jsx
+<Grid cols='2' gapX='8' gapY='9'>
+  <Grid.Column width="auto"></Grid.Column>
+  <Grid.Column width="auto"></Grid.Column>
+  <Grid.Column width="auto"></Grid.Column>
+  <Grid.Column width="auto"></Grid.Column>
+</Grid>
+```
