@@ -106,7 +106,7 @@ const Home: NextPage = () => {
               color="blue" colorContrast="500"
               width="full" height="10"
               icon="chevron-right-solid" iconPosition="right"
-              lg={{width: "32"}}>Get Started</Button>
+              lg={{width: "32"}} href="/docs/quickstart">Get Started</Button>
               <Button
               color="slate" colorContrast="200"
               colorHover="slate" colorHoverContrast="300"
